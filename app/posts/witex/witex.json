@@ -1,0 +1,12 @@
+{
+  "layout": "post",
+  "permalink": "{{ page.filePathStem | replace('posts/', '') }}/",
+  "tags": ["witex"],
+  "eleventyComputed": {
+    "eleventyNavigation": {
+      "parent": "witex",
+      "key": "{{ page.fileSlug }}",
+      "excerpt": "{{ description }}"
+    }
+  }
+}

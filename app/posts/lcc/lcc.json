@@ -1,0 +1,12 @@
+{
+  "layout": "post",
+  "permalink": "{{ page.filePathStem | replace('posts/', '') }}/",
+  "tags": ["lcc"],
+  "eleventyComputed": {
+    "eleventyNavigation": {
+      "parent": "lcc",
+       "key": "{{ page.fileSlug }}",
+      "excerpt": "{{ description }}"
+    }
+  }
+}
