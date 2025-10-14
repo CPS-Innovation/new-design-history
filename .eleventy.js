@@ -1,5 +1,7 @@
 module.exports = function (eleventyConfig) {
-  const pathPrefix = "/design-history"; // ✅ Set once here
+  // Choose pathPrefix based on environment
+  const isHeroku = process.env.HEROKU === "true";
+  const pathPrefix = isHeroku ? "" : "/design-history";
 
   // Browser Sync
   eleventyConfig.setBrowserSyncConfig({
