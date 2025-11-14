@@ -2,7 +2,7 @@
 
 A place for you to document your GOV.UK service designs.
 
-<https://cps-innovation.github.io/design-history/>
+<https://cps-innovation.github.io/new-design-history/>
 
 ## Purpose of this project
 
@@ -32,3 +32,4 @@ Read our guide on how to [set up a design history](https://design-history.heroku
 ## Technical notes
 
 The design history uses the [GOV.UK Design System](https://design-system.service.gov.uk) and the [Eleventy](https://www.11ty.dev) static site generator
+
