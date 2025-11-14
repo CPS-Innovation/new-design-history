@@ -16,7 +16,7 @@ This repository makes it easy to:
 
 ## Installation and getting started
 
-Read our guide on how to [set up a design history](https://design-history.herokuapp.com/set-up-a-design-history/).
+Read our guide on how to [set up a design history](https://new-design-history.herokuapp.com/set-up-a-design-history/).
 
 ## Example design histories
 
@@ -32,4 +32,5 @@ Read our guide on how to [set up a design history](https://design-history.heroku
 ## Technical notes
 
 The design history uses the [GOV.UK Design System](https://design-system.service.gov.uk) and the [Eleventy](https://www.11ty.dev) static site generator
+
 
