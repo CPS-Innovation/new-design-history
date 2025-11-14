@@ -2,7 +2,7 @@
 
 A place for you to document your GOV.UK service designs.
 
-<https://cps-innovation.github.io/new-design-history/>
+<[[https://cps-innovation.github.io/new-design-history/](https://cps-new-design-history-2189687bc35a.herokuapp.com/)](https://cps-new-design-history-2189687bc35a.herokuapp.com/)>
 
 ## Purpose of this project
 
@@ -14,9 +14,6 @@ This repository makes it easy to:
 * print pages of designs
 * make designs shareable and linkable
 
-## Installation and getting started
-
-Read our guide on how to [set up a design history](https://new-design-history.herokuapp.com/set-up-a-design-history/).
 
 ## Example design histories
 
@@ -32,5 +29,6 @@ Read our guide on how to [set up a design history](https://new-design-history.he
 ## Technical notes
 
 The design history uses the [GOV.UK Design System](https://design-system.service.gov.uk) and the [Eleventy](https://www.11ty.dev) static site generator
+
 
 
