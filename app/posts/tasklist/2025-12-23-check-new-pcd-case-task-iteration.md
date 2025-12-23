@@ -168,4 +168,71 @@ An entry is added to the case activity log showing the task was completed with a
 
 ![Activity log entry showing task completion details](/tasklist/check-new-pcd-case-iteration/20-activity-log-entry.png)
 
+## Validation errors
+
+### Decision
+
+- Nothing selected: Select if you want to accept or reject
+
+### Case type
+
+- Nothing selected: Select case type
+
+### Review task type
+
+- Nothing selected: Select review task type
+
+### Reasons for rejection
+
+- Nothing selected: Select reasons for rejection
+
+### Details
+
+- Too long: Details about ‘No MG3’ must be 250 characters or less
+
+### Do you want to create a task to remind you about when the police shouldrespond back to you?
+
+- Nothing selected: Select yes if you want to create a task to remind you about when the police should respond back to you
+
+### Date you’ll be reminded
+
+- Empty: Enter date you’ll be reminded
+- Missing day: Date you’ll be reminded must include a day
+- Missing month: Date you’ll be reminded must include a month
+- Missing year: Date you’ll be reminded must include a year
+- Invalid: Date you’ll be reminded must be a real date
+- Must be future: Date you’ll be reminded must be in the future
+
+### Who do you want to assign the ‘early advice manager triage’ task to?
+
+- Empty: Enter who you want to assign the ‘early advice manager triage’ task to
+
+### Do you want to transfer the case?
+
+- Nothing selected: Select yes if you want to transfer the case
+
+### Do you want to change the area?
+
+- Nothing selected: Select yes if you want to change the area
+
+### Area
+
+- Empty: Enter area
+
+### Unit
+
+- Empty: Enter unit
+
+### Prosecutor to assign the case to
+
+- Empty: Enter prosecutor to assign the case to
+
+### Date the police should respond by
+
+- Empty: Enter date the police should respond by
+- Missing day: Date the police should respond by must include a day
+- Missing month: Date the police should respond by must include a month
+- Missing year: Date the police should respond by must include a year
+- Invalid: Date the police should respond by must be a real date
+- Must be future: Date the police should respond by must be in the future
 
