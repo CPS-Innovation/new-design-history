@@ -3,7 +3,6 @@ title: Early advice manager triage task
 date: 2025-12-24
 ---
 
-
 At the moment, we don’t have a task for Early Advice (EA) cases.
 
 Other tasks were used as a workaround which meant there was:
@@ -90,3 +89,43 @@ The action is also recorded in the case activity log.
 
 ![Activity log showing 'Task completed: Early advice manager triage' entry](/tasklist/early-advice-manager-triage-task/11-activity-log-entry.png)
 
+## Validation errors
+
+### Decision
+
+- Nothing selected: Select if you accept or reject
+
+### Prosecutor
+
+- Empty: Select prosecutor
+
+### Reasons for rejection
+
+- Nothing selected: Select reasons for rejection
+
+### Details for each rejection reason
+
+- Too long: Details about ‘No MG3’ must be 250 characters or less
+
+### Date the police should respond by
+
+- Empty: Enter date the police should respond by
+- Missing day: Date the police should respond by must include a day
+- Missing month: Date the police should respond by must include a month
+- Missing year: Date the police should respond by must include a year
+- Invalid: Date the police should respond by must be a real date
+- Must be future: Date the police should respond by must be in the future
+
+### Do you want to create a task to remind you about when the police should respond back to you?
+
+- Nothing selected: Select yes if you want to create a task to remind you about when the police should respond back to you
+
+### Date you’ll be reminded
+
+- Empty: Enter date you’ll be reminded
+- Missing day: Date you’ll be reminded must include a day
+- Missing month: Date you’ll be reminded must include a month
+- Missing year: Date you’ll be reminded must include a year
+- Invalid: Date you’ll be reminded must be a real date
+- Must be future: Date you’ll be reminded must be in the future
+- Must be same or after date: Date you’ll be reminded must be the same as or after the date the police should respond by
