@@ -243,6 +243,15 @@
     "url": "/design-history/vca/vca-1/"
   },  {
     "data": {
+      "title": "Early advice manager triage task",
+"section": "polaris",      "layout": "post"
+    },
+    "date": "2025-12-24T00:00:00.000Z",
+    "dateString": "24 December 2025",
+    "templateContent": " moment have task early advice ea cases other tasks are being used workaround means : structured way capture rejection reasons when did meet criteria management information about why were rejected how long triage took risk allocated wrong unit prosecutor created this solve these problems ensure properly triaged before assigned works begins decision page: accept user selects taken page select assign case: autocomplete shows only prosecutors who after selecting check answers reject options are: case material correctly received missing disclosure schedule mg3 incomplete supervisors comments dv checklist mg11s exhibits summary interview previous convictions victim witness hard media provided third party incompatible oic contact details each reason optional field that conditionally revealed checkbox selected asking date police should respond by next asked they want create remind them back input revealed: click complete list with success banner says completed disappears refreshing navigating away activity log also updated validation errors nothing selected: empty: too long: 3 must 250 characters less enter day: include day month: month year: year invalid: real future: future yes reminded same date:",
+    "url": "/design-history/tasklist/early-advice-manager-triage-task/"
+  },  {
+    "data": {
       "title": "Check new PCD case task iteration",
 "section": "polaris",      "layout": "post"
     },

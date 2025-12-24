@@ -112,7 +112,7 @@ After selecting the unit, the user is taken to a page to assign the task owner o
 
 If the user selects 'Within 5 calendar days' or 'Within 28 calendar days' instead of 'Early advice', they skip the case type, transfer, and assignment questions and go straight to check answers.
 
-These review types don't need additional task creation or prosecutor assignment.
+These review types do not need additional task creation or prosecutor assignment.
 
 ### Reject flow
 
