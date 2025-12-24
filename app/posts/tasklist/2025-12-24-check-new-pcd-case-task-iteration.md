@@ -180,7 +180,7 @@ An entry is added to the case activity log showing the task was completed with a
 
 - Too long: Details about ‘No MG3’ must be 250 characters or less
 
-### Do you want to create a task to remind you about when the police shouldrespond back to you?
+### Do you want to create a task to remind you about when the police should respond back to you?
 
 - Nothing selected: Select yes if you want to create a task to remind you about when the police should respond back to you
 
