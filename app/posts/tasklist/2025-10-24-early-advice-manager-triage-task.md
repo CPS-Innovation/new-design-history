@@ -3,7 +3,7 @@ title: Early advice manager triage task
 date: 2025-12-24
 ---
 
-At the moment, we don’t have a task for Early Advice (EA) cases.
+At the moment, we do not have a task for Early Advice (EA) cases.
 
 Other tasks are being used as a workaround means there’s:
 
