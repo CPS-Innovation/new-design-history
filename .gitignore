@@ -143,3 +143,6 @@ app/images/allocate/.DS_Store
 app/images/polaris/.DS_Store
 app/images/witex/.DS_Store
 app/posts/.DS_Store
+
+public/*
+
