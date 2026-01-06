@@ -85,7 +85,7 @@
       <div class="app-prose"><p>The ‘Check new PCD case’ task is created when the police or an Investigative Agency submit a case for either Early Advice or a Pre-Charge Decision (PCD).</p>
 <p>This happens when the system receives a Police TWIF PCD Request message (CM01) or when someone manually registers a case.</p>
 <p>Casework assistants use this task to triage the request. They decide whether to accept or reject the case.</p>
-<p>If they accept, they determine the review task type, identify if it’s a RASSO case, and route it to the appropriate prosecutor or team.</p>
+<p>If they accept, they determine the review task type, identify the case type, and may route it to the appropriate prosecutor or team depending on the review type.</p>
 <p>We identified several issues with the current design. For example, there were many non-standard patterns, making it harder to use and inaccessible.</p>
 <p>So we redesigned the flow to use standard components and patterns from the GOV.UK Design System.</p>
 <h2 id="what-we-changed" tabindex="-1"><a class="header-anchor" href="#what-we-changed">What we changed</a></h2>
@@ -113,41 +113,47 @@
 <h2 id="how-it-works" tabindex="-1"><a class="header-anchor" href="#how-it-works">How it works</a></h2>
 <p>The flow begins with a decision page:</p>
 <figure><img src="/tasklist/check-new-pcd-case-task-iteration/01-decision.png" alt="Initial decision page with Accept and Reject radio buttons"></figure>
-<h3 id="accept-flow---rasso-cases" tabindex="-1"><a class="header-anchor" href="#accept-flow---rasso-cases">Accept flow - RASSO cases</a></h3>
+<h3 id="accept-flow" tabindex="-1"><a class="header-anchor" href="#accept-flow">Accept flow</a></h3>
 <p>If the user selects ‘Accept’, they’re asked what type of review task this is.</p>
 <figure><img src="/tasklist/check-new-pcd-case-task-iteration/02-accept-review-task-type.png" alt="Review task type page with three options: Early advice, Within 5 calendar days, Within 28 calendar days"></figure>
 <p>They then must select case type.</p>
 <figure><img src="/tasklist/check-new-pcd-case-task-iteration/03-accept-case-type.png" alt="Case type page with options: Magistrate court, Crown court, RASSO, Complex Casework Unit"></figure>
-<p>If they select ‘RASSO’, they’re asked if they want to transfer the case. The page shows the current unit in inset text.</p>
+<p>Next, they’re asked if they want to transfer the case. The page shows the current unit in inset text.</p>
 <figure><img src="/tasklist/check-new-pcd-case-task-iteration/04-accept-rasso-transfer-case.png" alt="Transfer case page asking 'Do you want to transfer the case?' with Yes/No options and current unit shown in inset"></figure>
-<p>If they choose not to transfer the case, they’re asked who they want to assign the ‘early advice manager triage’ task to. This is shown for RASSO cases because an additional manager triage step is required.</p>
-<figure><img src="/tasklist/check-new-pcd-case-task-iteration/05-accept-rasso-task-owner.png" alt="Task owner page with autocomplete field asking who to assign the early advice manager triage task to"></figure>
-<p>The autocomplete shows both individuals with their role in brackets and teams. When they type, matching results are shown.</p>
-<p>After selecting a task owner, they see the check answers page.</p>
-<figure><img src="/tasklist/check-new-pcd-case-task-iteration/06-accept-rasso-check-answers.png" alt="Check answers page showing: Decision (Accept), Review task type (Early advice), Case type (RASSO), Transfer case (No), Task owner selection"></figure>
-<h3 id="accept-flow---non-rasso-cases" tabindex="-1"><a class="header-anchor" href="#accept-flow---non-rasso-cases">Accept flow - non-RASSO cases</a></h3>
-<p>If they select a case type other than RASSO, they still see the transfer case question.</p>
-<figure><img src="/tasklist/check-new-pcd-case-task-iteration/07-accept-non-rasso-transfer-case.png" alt="Transfer case page for non-RASSO case"></figure>
-<p>If they choose not to transfer, they go to the page to select a prosecutor to assign to the case.</p>
-<figure><img src="/tasklist/check-new-pcd-case-task-iteration/08-accept-non-rasso-prosecutor.png" alt="Prosecutor page with autocomplete field"></figure>
-<p>The autocomplete filters the list of prosecutors as they type.</p>
-<p>The check answers page shows the prosecutor assignment instead of a task owner.</p>
-<figure><img src="/tasklist/check-new-pcd-case-task-iteration/09-accept-non-rasso-check-answers.png" alt="Check answers page for non-RASSO showing prosecutor assignment"></figure>
+<p>What happens next depends on:</p>
+<ul>
+<li>whether they chose to transfer</li>
+<li>what review task type they selected.</li>
+</ul>
 <h3 id="transferring-the-case-to-another-unit" tabindex="-1"><a class="header-anchor" href="#transferring-the-case-to-another-unit">Transferring the case to another unit</a></h3>
-<p>When the user chooses to transfer the case, they’re asked if they want to change the area. The current area is shown in inset text.</p>
+<p>If the user chooses to transfer the case, they’re asked if they want to change the area. The current area is shown in inset text.</p>
 <figure><img src="/tasklist/check-new-pcd-case-task-iteration/10-accept-transfer-area.png" alt="Area page asking if they want to change the area, with current area shown"></figure>
 <p>If they select ‘Yes’, an autocomplete field is revealed where they can select a different area.</p>
 <figure><img src="/tasklist/check-new-pcd-case-task-iteration/10a-accept-transfer-area-revealed.png" alt="Area autocomplete conditionally revealed after selecting Yes"></figure>
 <p>The autocomplete shows matching areas as they type.</p>
 <p>Next, they select which unit to transfer the case to. The current unit is shown in inset text.</p>
 <figure><img src="/tasklist/check-new-pcd-case-task-iteration/11-accept-transfer-unit.png" alt="Unit page with autocomplete, showing current unit"></figure>
-<p>The unit autocomplete is filtered by the selected area.</p>
+<p>The unit autocomplete is filtered by the selected area (either the area they selected or their current area if they chose not to change it).</p>
 <figure><img src="/tasklist/check-new-pcd-case-task-iteration/11a-accept-transfer-unit-autocomplete.png" alt="Unit autocomplete showing filtered results"></figure>
-<p>After selecting the unit, the user is taken to a page to assign the task owner or prosecutor depending on whether it’s a RASSO case or not. The check answers page shows all transfer details including the area and unit.</p>
+<p>After the transfer question (whether they transferred or not), what happens next depends on the review task type selected earlier.</p>
+<p>If the user selects ‘Within 5 calendar days’ or ‘Within 28 calendar days’, users go straight to check answers. These review types do not need task creation or prosecutor assignment.</p>
+<p>If the user selects ‘Early advice’, users are asked to assign the case. What they’re asked depends on the case type:</p>
+<h3 id="early-advice---rasso-cases" tabindex="-1"><a class="header-anchor" href="#early-advice---rasso-cases">Early advice - RASSO cases</a></h3>
+<p>For RASSO cases, users are asked who they want to assign the ‘early advice manager triage’ task to. This is shown for RASSO cases because an additional manager triage step is required.</p>
+<figure><img src="/tasklist/check-new-pcd-case-task-iteration/05-accept-rasso-task-owner.png" alt="Task owner page with autocomplete field asking who to assign the early advice manager triage task to"></figure>
+<p>The autocomplete shows both individuals with their role in brackets and teams. When they type, matching results are shown.</p>
+<p>The list is filtered by the unit - either the transferred unit if they transferred the case, or the current case unit if they didn’t.</p>
+<p>After selecting a task owner, they see the check answers page.</p>
+<figure><img src="/tasklist/check-new-pcd-case-task-iteration/06-accept-rasso-check-answers.png" alt="Check answers page showing: Decision (Accept), Review task type (Early advice), Case type (RASSO), Transfer case (No), Task owner selection"></figure>
+<p>If they transferred the case, the check answers page shows all transfer details including the area and unit.</p>
 <figure><img src="/tasklist/check-new-pcd-case-task-iteration/12-accept-transfer-check-answers.png" alt="Check answers page showing full transfer details"></figure>
-<h3 id="accept-flow---5-or-28-day-review" tabindex="-1"><a class="header-anchor" href="#accept-flow---5-or-28-day-review">Accept flow - 5 or 28 day review</a></h3>
-<p>If the user selects ‘Within 5 calendar days’ or ‘Within 28 calendar days’ instead of ‘Early advice’, they skip the case type, transfer, and assignment questions and go straight to check answers.</p>
-<p>These review types do not need additional task creation or prosecutor assignment.</p>
+<h3 id="early-advice---non-rasso-cases" tabindex="-1"><a class="header-anchor" href="#early-advice---non-rasso-cases">Early advice - non-RASSO cases</a></h3>
+<p>For non-RASSO early advice cases (Magistrate court, Crown court, or Complex Casework Unit), users go to the page to select a prosecutor to assign the case to.</p>
+<figure><img src="/tasklist/check-new-pcd-case-task-iteration/08-accept-non-rasso-prosecutor.png" alt="Prosecutor page with autocomplete field"></figure>
+<p>The autocomplete filters the list of prosecutors as they type.</p>
+<p>Like the task owner page, the prosecutor list is filtered by the unit - either the transferred unit if they transferred the case, or the current case unit if they didn’t.</p>
+<p>The check answers page shows the prosecutor assignment.</p>
+<figure><img src="/tasklist/check-new-pcd-case-task-iteration/09-accept-non-rasso-check-answers.png" alt="Check answers page for non-RASSO showing prosecutor assignment"></figure>
 <h3 id="reject-flow" tabindex="-1"><a class="header-anchor" href="#reject-flow">Reject flow</a></h3>
 <p>If the user chooses ‘Reject’ at the start, they’re asked to select reasons for rejection.</p>
 <figure><img src="/tasklist/check-new-pcd-case-task-iteration/13-reject-reasons.png" alt="Reasons for rejection page with multiple checkbox options"></figure>

@@ -9,7 +9,7 @@ This happens when the system receives a Police TWIF PCD Request message (CM01) o
 
 Casework assistants use this task to triage the request. They decide whether to accept or reject the case.
 
-If they accept, they determine the review task type, identify if it's a RASSO case, and route it to the appropriate prosecutor or team.
+If they accept, they determine the review task type, identify the case type, and may route it to the appropriate prosecutor or team depending on the review type.
 
 We identified several issues with the current design. For example, there were many non-standard patterns, making it harder to use and inaccessible.
 
@@ -22,9 +22,9 @@ We made the following design changes:
 - Removed the blue information box as it was unnecessary
 - Used caption pattern for case reference, defendant name, and task name to provide context in multi-step flows
 - Removed the link to open the PCD request because users should be able to complete the flow without leaving it
-- Changed to big radio buttons because they’re easier to use
-- Changed buttons from ‘Next’ to ‘Continue’ to follow GOV.UK standards
-- Changed buttons from ‘Done’ to ‘Continue’ because ‘Done’ is misleading as it’s not the end of the flow
+- Changed to big radio buttons because they're easier to use
+- Changed buttons from 'Next' to 'Continue' to follow GOV.UK standards
+- Changed buttons from 'Done' to 'Continue' because 'Done' is misleading as it's not the end of the flow
 - Removed cancel links as the flow is short and we think they're unnecessary
 - Made content clearer throughout
 - Removed conditionally revealing inputs after existing inputs as that's non-standard and causes accessibility issues
@@ -44,7 +44,7 @@ The flow begins with a decision page:
 
 ![Initial decision page with Accept and Reject radio buttons](/tasklist/check-new-pcd-case-task-iteration/01-decision.png)
 
-### Accept flow - RASSO cases
+### Accept flow
 
 If the user selects 'Accept', they're asked what type of review task this is.
 
@@ -54,39 +54,18 @@ They then must select case type.
 
 ![Case type page with options: Magistrate court, Crown court, RASSO, Complex Casework Unit](/tasklist/check-new-pcd-case-task-iteration/03-accept-case-type.png)
 
-If they select 'RASSO', they're asked if they want to transfer the case. The page shows the current unit in inset text.
+Next, they're asked if they want to transfer the case. The page shows the current unit in inset text.
 
 ![Transfer case page asking 'Do you want to transfer the case?' with Yes/No options and current unit shown in inset](/tasklist/check-new-pcd-case-task-iteration/04-accept-rasso-transfer-case.png)
 
-If they choose not to transfer the case, they're asked who they want to assign the 'early advice manager triage' task to. This is shown for RASSO cases because an additional manager triage step is required.
+What happens next depends on:
 
-![Task owner page with autocomplete field asking who to assign the early advice manager triage task to](/tasklist/check-new-pcd-case-task-iteration/05-accept-rasso-task-owner.png)
-
-The autocomplete shows both individuals with their role in brackets and teams. When they type, matching results are shown.
-
-After selecting a task owner, they see the check answers page.
-
-![Check answers page showing: Decision (Accept), Review task type (Early advice), Case type (RASSO), Transfer case (No), Task owner selection](/tasklist/check-new-pcd-case-task-iteration/06-accept-rasso-check-answers.png)
-
-### Accept flow - non-RASSO cases
-
-If they select a case type other than RASSO, they still see the transfer case question.
-
-![Transfer case page for non-RASSO case](/tasklist/check-new-pcd-case-task-iteration/07-accept-non-rasso-transfer-case.png)
-
-If they choose not to transfer, they go to the page to select a prosecutor to assign to the case.
-
-![Prosecutor page with autocomplete field](/tasklist/check-new-pcd-case-task-iteration/08-accept-non-rasso-prosecutor.png)
-
-The autocomplete filters the list of prosecutors as they type.
-
-The check answers page shows the prosecutor assignment instead of a task owner.
-
-![Check answers page for non-RASSO showing prosecutor assignment](/tasklist/check-new-pcd-case-task-iteration/09-accept-non-rasso-check-answers.png)
+- whether they chose to transfer
+- what review task type they selected.
 
 ### Transferring the case to another unit
 
-When the user chooses to transfer the case, they're asked if they want to change the area. The current area is shown in inset text.
+If the user chooses to transfer the case, they're asked if they want to change the area. The current area is shown in inset text.
 
 ![Area page asking if they want to change the area, with current area shown](/tasklist/check-new-pcd-case-task-iteration/10-accept-transfer-area.png)
 
@@ -100,19 +79,47 @@ Next, they select which unit to transfer the case to. The current unit is shown 
 
 ![Unit page with autocomplete, showing current unit](/tasklist/check-new-pcd-case-task-iteration/11-accept-transfer-unit.png)
 
-The unit autocomplete is filtered by the selected area.
+The unit autocomplete is filtered by the selected area (either the area they selected or their current area if they chose not to change it).
 
 ![Unit autocomplete showing filtered results](/tasklist/check-new-pcd-case-task-iteration/11a-accept-transfer-unit-autocomplete.png)
 
-After selecting the unit, the user is taken to a page to assign the task owner or prosecutor depending on whether it's a RASSO case or not. The check answers page shows all transfer details including the area and unit.
+After the transfer question (whether they transferred or not), what happens next depends on the review task type selected earlier.
+
+If the user selects ‘Within 5 calendar days’ or ‘Within 28 calendar days’, users go straight to check answers. These review types do not need task creation or prosecutor assignment.
+
+If the user selects ‘Early advice’, users are asked to assign the case. What they’re asked depends on the case type:
+
+### Early advice - RASSO cases
+
+For RASSO cases, users are asked who they want to assign the ‘early advice manager triage’ task to. This is shown for RASSO cases because an additional manager triage step is required.
+
+![Task owner page with autocomplete field asking who to assign the early advice manager triage task to](/tasklist/check-new-pcd-case-task-iteration/05-accept-rasso-task-owner.png)
+
+The autocomplete shows both individuals with their role in brackets and teams. When they type, matching results are shown.
+
+The list is filtered by the unit - either the transferred unit if they transferred the case, or the current case unit if they didn't.
+
+After selecting a task owner, they see the check answers page.
+
+![Check answers page showing: Decision (Accept), Review task type (Early advice), Case type (RASSO), Transfer case (No), Task owner selection](/tasklist/check-new-pcd-case-task-iteration/06-accept-rasso-check-answers.png)
+
+If they transferred the case, the check answers page shows all transfer details including the area and unit.
 
 ![Check answers page showing full transfer details](/tasklist/check-new-pcd-case-task-iteration/12-accept-transfer-check-answers.png)
 
-### Accept flow - 5 or 28 day review
+### Early advice - non-RASSO cases
 
-If the user selects 'Within 5 calendar days' or 'Within 28 calendar days' instead of 'Early advice', they skip the case type, transfer, and assignment questions and go straight to check answers.
+For non-RASSO early advice cases (Magistrate court, Crown court, or Complex Casework Unit), users go to the page to select a prosecutor to assign the case to.
 
-These review types do not need additional task creation or prosecutor assignment.
+![Prosecutor page with autocomplete field](/tasklist/check-new-pcd-case-task-iteration/08-accept-non-rasso-prosecutor.png)
+
+The autocomplete filters the list of prosecutors as they type.
+
+Like the task owner page, the prosecutor list is filtered by the unit - either the transferred unit if they transferred the case, or the current case unit if they didn't.
+
+The check answers page shows the prosecutor assignment.
+
+![Check answers page for non-RASSO showing prosecutor assignment](/tasklist/check-new-pcd-case-task-iteration/09-accept-non-rasso-check-answers.png)
 
 ### Reject flow
 
@@ -144,7 +151,7 @@ If they select 'Yes', a date input is conditionally revealed where they can set 
 
 ![Reminder date input revealed after selecting Yes](/tasklist/check-new-pcd-case-task-iteration/17a-reject-reminder-task-revealed.png)
 
-Then they’re taken to the check answers page.
+Then they're taken to the check answers page.
 
 ![Check answers page for reject flow showing all details](/tasklist/check-new-pcd-case-task-iteration/18-reject-check-answers.png)
 
@@ -178,24 +185,24 @@ An entry is added to the case activity log showing the task was completed with a
 
 ### Details
 
-- Too long: Details about ‘No MG3’ must be 250 characters or less
+- Too long: Details about 'No MG3' must be 250 characters or less
 
 ### Do you want to create a task to remind you about when the police should respond back to you?
 
 - Nothing selected: Select yes if you want to create a task to remind you about when the police should respond back to you
 
-### Date you’ll be reminded
+### Date you'll be reminded
 
-- Empty: Enter date you’ll be reminded
-- Missing day: Date you’ll be reminded must include a day
-- Missing month: Date you’ll be reminded must include a month
-- Missing year: Date you’ll be reminded must include a year
-- Invalid: Date you’ll be reminded must be a real date
-- Must be future: Date you’ll be reminded must be in the future
+- Empty: Enter date you'll be reminded
+- Missing day: Date you'll be reminded must include a day
+- Missing month: Date you'll be reminded must include a month
+- Missing year: Date you'll be reminded must include a year
+- Invalid: Date you'll be reminded must be a real date
+- Must be future: Date you'll be reminded must be in the future
 
-### Who do you want to assign the ‘early advice manager triage’ task to?
+### Who do you want to assign the 'early advice manager triage' task to?
 
-- Empty: Enter who you want to assign the ‘early advice manager triage’ task to
+- Empty: Enter who you want to assign the 'early advice manager triage' task to
 
 ### Do you want to transfer the case?
 
@@ -225,4 +232,3 @@ An entry is added to the case activity log showing the task was completed with a
 - Missing year: Date the police should respond by must include a year
 - Invalid: Date the police should respond by must be a real date
 - Must be future: Date the police should respond by must be in the future
-
