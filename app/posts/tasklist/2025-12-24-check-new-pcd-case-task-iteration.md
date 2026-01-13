@@ -165,7 +165,9 @@ An entry is added to the case activity log showing the task was completed with a
 
 ![Activity log entry showing task completion details](/tasklist/check-new-pcd-case-task-iteration/20-activity-log-entry.png)
 
-## Validation errors
+For early advice RASSO cases an ‘early advice manage triage’ task is created with the owner being the selected owner.
+
+## Error messages
 
 ### Decision
 

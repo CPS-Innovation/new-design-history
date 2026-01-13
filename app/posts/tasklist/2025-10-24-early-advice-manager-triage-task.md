@@ -13,6 +13,8 @@ Other tasks are being used as a workaround means there’s:
 
 We created this task to solve these problems and ensure early advice cases are properly triaged before being assigned to a prosecutor.
 
+This task is only created when users complete the [check new PCD case](/tasklist/check-new-pcd-case-task-iteration/) task. Because we already know the review task type is early advice and the case type is RASSO, we do not ask users for this information again.
+
 ## How it works
 
 The task begins on the decision page:
