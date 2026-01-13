@@ -122,7 +122,7 @@ And an activity log entry is created:
 
 ![Screenshot of activity log entry](/tasklist/priority-pcd-review-task-iteration/15-activity-log.png)
 
-## Validation error messages
+## Error messages
 
 ### Decision
 

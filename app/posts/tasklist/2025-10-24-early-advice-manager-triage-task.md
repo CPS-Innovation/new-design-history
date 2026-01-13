@@ -89,7 +89,7 @@ The activity log is also updated.
 
 ![Activity log showing 'Task completed: Early advice manager triage' entry](/tasklist/early-advice-manager-triage-task/11-activity-log-entry.png)
 
-## Validation errors
+## Error messages
 
 ### Decision
 

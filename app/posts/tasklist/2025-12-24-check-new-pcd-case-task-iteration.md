@@ -91,7 +91,7 @@ If the user selects ‘Early advice’, users are asked to assign the case. What
 
 ### Early advice - RASSO cases
 
-For RASSO cases, users are asked who they want to assign the ‘early advice manager triage’ task to. This is shown for RASSO cases because an additional manager triage step is required.
+For RASSO cases, users are asked who they want to assign the ‘early advice manager triage’ task to. This is shown for RASSO cases because an additional manager triage step will be created.
 
 ![Task owner page with autocomplete field asking who to assign the early advice manager triage task to](/tasklist/check-new-pcd-case-task-iteration/05-accept-rasso-task-owner.png)
 
