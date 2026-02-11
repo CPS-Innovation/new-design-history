@@ -42,21 +42,21 @@ We made the following design changes:
 
 The flow begins with a decision page:
 
-![Initial decision page with Accept and Reject radio buttons](/tasklist/check-new-pcd-case-task-iteration/01-decision.png)
+![Initial decision page with Accept and Reject radio buttons](/manage-cases/check-new-pcd-case-task-iteration/01-decision.png)
 
 ### Accept flow
 
 If the user selects 'Accept', they're asked what type of review task this is.
 
-![Review task type page with three options: Early advice, Within 5 calendar days, Within 28 calendar days](/tasklist/check-new-pcd-case-task-iteration/02-accept-review-task-type.png)
+![Review task type page with three options: Early advice, Within 5 calendar days, Within 28 calendar days](/manage-cases/check-new-pcd-case-task-iteration/02-accept-review-task-type.png)
 
 They then must select case type.
 
-![Case type page with options: Magistrate court, Crown court, RASSO, Complex Casework Unit](/tasklist/check-new-pcd-case-task-iteration/03-accept-case-type.png)
+![Case type page with options: Magistrate court, Crown court, RASSO, Complex Casework Unit](/manage-cases/check-new-pcd-case-task-iteration/03-accept-case-type.png)
 
 Next, they're asked if they want to transfer the case. The page shows the current unit in inset text.
 
-![Transfer case page asking 'Do you want to transfer the case?' with Yes/No options and current unit shown in inset](/tasklist/check-new-pcd-case-task-iteration/04-accept-rasso-transfer-case.png)
+![Transfer case page asking 'Do you want to transfer the case?' with Yes/No options and current unit shown in inset](/manage-cases/check-new-pcd-case-task-iteration/04-accept-rasso-transfer-case.png)
 
 What happens next depends on:
 
@@ -67,21 +67,21 @@ What happens next depends on:
 
 If the user chooses to transfer the case, they're asked if they want to change the area. The current area is shown in inset text.
 
-![Area page asking if they want to change the area, with current area shown](/tasklist/check-new-pcd-case-task-iteration/10-accept-transfer-area.png)
+![Area page asking if they want to change the area, with current area shown](/manage-cases/check-new-pcd-case-task-iteration/10-accept-transfer-area.png)
 
 If they select 'Yes', an autocomplete field is revealed where they can select a different area.
 
-![Area autocomplete conditionally revealed after selecting Yes](/tasklist/check-new-pcd-case-task-iteration/10a-accept-transfer-area-revealed.png)
+![Area autocomplete conditionally revealed after selecting Yes](/manage-cases/check-new-pcd-case-task-iteration/10a-accept-transfer-area-revealed.png)
 
 The autocomplete shows matching areas as they type.
 
 Next, they select which unit to transfer the case to. The current unit is shown in inset text.
 
-![Unit page with autocomplete, showing current unit](/tasklist/check-new-pcd-case-task-iteration/11-accept-transfer-unit.png)
+![Unit page with autocomplete, showing current unit](/manage-cases/check-new-pcd-case-task-iteration/11-accept-transfer-unit.png)
 
 The unit autocomplete is filtered by the selected area (either the area they selected or their current area if they chose not to change it).
 
-![Unit autocomplete showing filtered results](/tasklist/check-new-pcd-case-task-iteration/11a-accept-transfer-unit-autocomplete.png)
+![Unit autocomplete showing filtered results](/manage-cases/check-new-pcd-case-task-iteration/11a-accept-transfer-unit-autocomplete.png)
 
 After the transfer question (whether they transferred or not), what happens next depends on the review task type selected earlier.
 
@@ -93,7 +93,7 @@ If the user selects ‘Early advice’, users are asked to assign the case. What
 
 For RASSO cases, users are asked who they want to assign the ‘early advice manager triage’ task to. This is shown for RASSO cases because an additional manager triage step will be created.
 
-![Task owner page with autocomplete field asking who to assign the early advice manager triage task to](/tasklist/check-new-pcd-case-task-iteration/05-accept-rasso-task-owner.png)
+![Task owner page with autocomplete field asking who to assign the early advice manager triage task to](/manage-cases/check-new-pcd-case-task-iteration/05-accept-rasso-task-owner.png)
 
 The autocomplete shows both individuals with their role in brackets and teams. When they type, matching results are shown.
 
@@ -101,17 +101,17 @@ The list is filtered by the unit - either the transferred unit if they transferr
 
 After selecting a task owner, they see the check answers page.
 
-![Check answers page showing: Decision (Accept), Review task type (Early advice), Case type (RASSO), Transfer case (No), Task owner selection](/tasklist/check-new-pcd-case-task-iteration/06-accept-rasso-check-answers.png)
+![Check answers page showing: Decision (Accept), Review task type (Early advice), Case type (RASSO), Transfer case (No), Task owner selection](/manage-cases/check-new-pcd-case-task-iteration/06-accept-rasso-check-answers.png)
 
 If they transferred the case, the check answers page shows all transfer details including the area and unit.
 
-![Check answers page showing full transfer details](/tasklist/check-new-pcd-case-task-iteration/12-accept-transfer-check-answers.png)
+![Check answers page showing full transfer details](/manage-cases/check-new-pcd-case-task-iteration/12-accept-transfer-check-answers.png)
 
 ### Early advice - non-RASSO cases
 
 For non-RASSO early advice cases (Magistrate court, Crown court, or Complex Casework Unit), users go to the page to select a prosecutor to assign the case to.
 
-![Prosecutor page with autocomplete field](/tasklist/check-new-pcd-case-task-iteration/08-accept-non-rasso-prosecutor.png)
+![Prosecutor page with autocomplete field](/manage-cases/check-new-pcd-case-task-iteration/08-accept-non-rasso-prosecutor.png)
 
 The autocomplete filters the list of prosecutors as they type.
 
@@ -119,51 +119,51 @@ Like the task owner page, the prosecutor list is filtered by the unit - either t
 
 The check answers page shows the prosecutor assignment.
 
-![Check answers page for non-RASSO showing prosecutor assignment](/tasklist/check-new-pcd-case-task-iteration/09-accept-non-rasso-check-answers.png)
+![Check answers page for non-RASSO showing prosecutor assignment](/manage-cases/check-new-pcd-case-task-iteration/09-accept-non-rasso-check-answers.png)
 
 ### Reject flow
 
 If the user chooses 'Reject' at the start, they're asked to select reasons for rejection.
 
-![Reasons for rejection page with multiple checkbox options](/tasklist/check-new-pcd-case-task-iteration/13-reject-reasons.png)
+![Reasons for rejection page with multiple checkbox options](/manage-cases/check-new-pcd-case-task-iteration/13-reject-reasons.png)
 
 Selecting a checkbox, conditionally reveals a character count to add details.
 
-![Textarea revealed after selecting 'No MG3' checkbox](/tasklist/check-new-pcd-case-task-iteration/13a-reject-reasons-revealed.png)
+![Textarea revealed after selecting 'No MG3' checkbox](/manage-cases/check-new-pcd-case-task-iteration/13a-reject-reasons-revealed.png)
 
 After selecting reasons, they're asked what type of review task this is.
 
-![Review task type page in reject flow](/tasklist/check-new-pcd-case-task-iteration/14-reject-review-task-type.png)
+![Review task type page in reject flow](/manage-cases/check-new-pcd-case-task-iteration/14-reject-review-task-type.png)
 
 Then they're asked to select case type.
 
-![Case type page in reject flow](/tasklist/check-new-pcd-case-task-iteration/15-reject-case-type.png)
+![Case type page in reject flow](/manage-cases/check-new-pcd-case-task-iteration/15-reject-case-type.png)
 
 Then the user must provide the date the police should respond by.
 
-![Police response date page with day, month, year inputs](/tasklist/check-new-pcd-case-task-iteration/16-reject-police-response-date.png)
+![Police response date page with day, month, year inputs](/manage-cases/check-new-pcd-case-task-iteration/16-reject-police-response-date.png)
 
 The user is then asked if they want to create a task to remind them about when the police should respond back to them.
 
-![Create reminder task page with Yes/No radio buttons](/tasklist/check-new-pcd-case-task-iteration/17-reject-create-reminder-task.png)
+![Create reminder task page with Yes/No radio buttons](/manage-cases/check-new-pcd-case-task-iteration/17-reject-create-reminder-task.png)
 
 If they select 'Yes', a date input is conditionally revealed where they can set the reminder date.
 
-![Reminder date input revealed after selecting Yes](/tasklist/check-new-pcd-case-task-iteration/17a-reject-reminder-task-revealed.png)
+![Reminder date input revealed after selecting Yes](/manage-cases/check-new-pcd-case-task-iteration/17a-reject-reminder-task-revealed.png)
 
 Then they're taken to the check answers page.
 
-![Check answers page for reject flow showing all details](/tasklist/check-new-pcd-case-task-iteration/18-reject-check-answers.png)
+![Check answers page for reject flow showing all details](/manage-cases/check-new-pcd-case-task-iteration/18-reject-check-answers.png)
 
 ### Completing the task
 
 When the user clicks 'Complete task', they're redirected to the case task list with a success banner.
 
-![Success banner showing 'Task completed'](/tasklist/check-new-pcd-case-task-iteration/19-success-message.png)
+![Success banner showing 'Task completed'](/manage-cases/check-new-pcd-case-task-iteration/19-success-message.png)
 
 An entry is added to the case activity log showing the task was completed with all the relevant details.
 
-![Activity log entry showing task completion details](/tasklist/check-new-pcd-case-task-iteration/20-activity-log-entry.png)
+![Activity log entry showing task completion details](/manage-cases/check-new-pcd-case-task-iteration/20-activity-log-entry.png)
 
 For early advice RASSO cases an ‘early advice manage triage’ task is created with the owner being the selected owner.
 

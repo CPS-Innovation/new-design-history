@@ -13,25 +13,25 @@ Other tasks are being used as a workaround means there’s:
 
 We created this task to solve these problems and ensure early advice cases are properly triaged before being assigned to a prosecutor.
 
-This task is only created when users complete the [check new PCD case](/tasklist/check-new-pcd-case-task-iteration/) task. Because we already know the review task type is early advice and the case type is RASSO, we do not ask users for this information again.
+This task is only created when users complete the [check new PCD case](/manage-cases/check-new-pcd-case-task-iteration/) task. Because we already know the review task type is early advice and the case type is RASSO, we do not ask users for this information again.
 
 ## How it works
 
 The task begins on the decision page:
 
-![Decision page showing 'Accept' or 'Reject' radio buttons](/tasklist/early-advice-manager-triage-task/01-decision.png)
+![Decision page showing 'Accept' or 'Reject' radio buttons](/manage-cases/early-advice-manager-triage-task/01-decision.png)
 
 ### Accept
 
 If the user selects ‘Accept’, they're taken to a page to select a prosecutor to assign to the case:
 
-![Prosecutor selection page with autocomplete field](/tasklist/early-advice-manager-triage-task/02-accept-prosecutor.png)
+![Prosecutor selection page with autocomplete field](/manage-cases/early-advice-manager-triage-task/02-accept-prosecutor.png)
 
 The autocomplete shows only prosecutors who are assigned to the case’s unit.
 
 After selecting a prosecutor, the user is taken to the check answers page:
 
-![Check answers page for accept path showing decision as 'Accept' and selected prosecutor](/tasklist/early-advice-manager-triage-task/03-accept-check-answers.png)
+![Check answers page for accept path showing decision as 'Accept' and selected prosecutor](/manage-cases/early-advice-manager-triage-task/03-accept-check-answers.png)
 
 {# When they complete the task:
 
@@ -43,7 +43,7 @@ After selecting a prosecutor, the user is taken to the check answers page:
 
 If the user selects ‘Reject’, they're taken to a page to select reasons for rejection.
 
-![Reasons for rejection page showing 13 checkbox options](/tasklist/early-advice-manager-triage-task/04-reject-reasons.png)
+![Reasons for rejection page showing 13 checkbox options](/manage-cases/early-advice-manager-triage-task/04-reject-reasons.png)
 
 The options are:
 
@@ -63,31 +63,31 @@ The options are:
 
 Each reason has an optional details field that is conditionally revealed when the checkbox is selected.
 
-![Reasons for rejection page with one checkbox selected and conditional details field revealed](/tasklist/early-advice-manager-triage-task/05-reject-reasons-conditional-reveal.png)
+![Reasons for rejection page with one checkbox selected and conditional details field revealed](/manage-cases/early-advice-manager-triage-task/05-reject-reasons-conditional-reveal.png)
 
 After selecting reasons, the user is taken to a page asking for the date the police should respond by.
 
-![Police response date page with date input fields](/tasklist/early-advice-manager-triage-task/06-reject-police-response-date.png)
+![Police response date page with date input fields](/manage-cases/early-advice-manager-triage-task/06-reject-police-response-date.png)
 
 Next, the user is asked if they want to create a task to remind them about when the police should respond back to them.
 
-![Create reminder task page with 'Yes' or 'No' radio buttons](/tasklist/early-advice-manager-triage-task/07-reject-create-reminder-task.png)
+![Create reminder task page with 'Yes' or 'No' radio buttons](/manage-cases/early-advice-manager-triage-task/07-reject-create-reminder-task.png)
 
 If they select 'Yes', a date input is conditionally revealed:
 
-![Create reminder task page with 'Yes' selected and date input field revealed](/tasklist/early-advice-manager-triage-task/08-reject-create-reminder-task-conditional-reveal.png)
+![Create reminder task page with 'Yes' selected and date input field revealed](/manage-cases/early-advice-manager-triage-task/08-reject-create-reminder-task-conditional-reveal.png)
 
 Next, the user is taken to the check answers page:
 
-![Check answers page for reject path showing decision, rejection reasons with details, police response date, and reminder task preference](/tasklist/early-advice-manager-triage-task/09-reject-check-answers.png)
+![Check answers page for reject path showing decision, rejection reasons with details, police response date, and reminder task preference](/manage-cases/early-advice-manager-triage-task/09-reject-check-answers.png)
 
 When they click ‘Complete task’, they’re taken to the case task list with a success banner that says “Task completed”. It only disappears when refreshing the page or navigating away.
 
-![Task list page with green success banner saying 'Task completed'](/tasklist/early-advice-manager-triage-task/10-task-completed-success.png)
+![Task list page with green success banner saying 'Task completed'](/manage-cases/early-advice-manager-triage-task/10-task-completed-success.png)
 
 The activity log is also updated.
 
-![Activity log showing 'Task completed: Early advice manager triage' entry](/tasklist/early-advice-manager-triage-task/11-activity-log-entry.png)
+![Activity log showing 'Task completed: Early advice manager triage' entry](/manage-cases/early-advice-manager-triage-task/11-activity-log-entry.png)
 
 ## Error messages
 
