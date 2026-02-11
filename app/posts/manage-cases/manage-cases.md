@@ -2,7 +2,7 @@
 override:tags: []
 layout: collection
 title: Manage cases
-description: A service to help case work assistants, paralegal officers and prosecutors manage criminal cases
+description: A service to help users manage criminal cases
 pagination:
   data: collections.manage-cases
   reverse: true
