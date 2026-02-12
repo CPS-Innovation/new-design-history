@@ -216,6 +216,51 @@
     "url": "/design-history/manage-cases/priority-pcd-review-task-iteration/"
   },  {
     "data": {
+      "title": "Changing the layout of the witness list page",
+"section": "manage-cases",      "layout": "post"
+    },
+    "date": "2026-02-03T00:00:00.000Z",
+    "dateString": "3 February 2026",
+    "templateContent": " moment witness list shows all information single page using summary cards with tabs inside each their own card containing : statements details availability special measures this some usability downsides like: puts lot one creating unnecessary cognitive load success messages need mention specific that been updated users then have scroll down find full width layout means harder scan follow gov.uk design system patterns removed from moved separate detail only see they are interested rather than having available hidden behind what changed simplifying replaced simple witnesses shown link name date birth type tags just enough looking uses two thirds column instead making easier adding showing everything click view breadcrumbs let navigate back case reducing number previous showed tag every type: victim key child expert interpreter police professional prisoner vulnerable intimidated court attendance status meant had many hard spot most important reduced show: required attend marked section 9 least statement other types into row both keeps without cluttering different sections depending data see: personal title gender ethnicity preferred language relevance issues transgressions acro convictions contact cps allowed address method phone numbers email material who victims also code digital file dcf when any requested adapts show relevant avoiding empty shorter",
+    "url": "/design-history/manage-cases/changing-the-layout-of-the-witness-list-page/"
+  },  {
+    "data": {
+      "title": "Mark witness as required to attend court",
+"section": "manage-cases",      "layout": "post"
+    },
+    "date": "2026-02-04T00:00:00.000Z",
+    "dateString": "4 February 2026",
+    "templateContent": " users need able mark witness required attend court find this action details page how works shows link top only shown when been marked already instead clicking takes user asking them confirm they want case reference name caption above heading can check are marking right cancel will take back will: show success banner saying disappear navigating away refreshing tag next change recorded activity log: future considerations complete journey requiring also needs communications sent that currently separate remember explore make connection clearer forget send test multiple witnesses regularly several once consider adding bulk functionality reduce number steps",
+    "url": "/design-history/manage-cases/mark-witness-as-required-to-attend-court/"
+  },  {
+    "data": {
+      "title": "Mark witness as not required to attend court",
+"section": "manage-cases",      "layout": "post"
+    },
+    "date": "2026-02-05T00:00:00.000Z",
+    "dateString": "5 February 2026",
+    "templateContent": " recently added ability mark witness required attend court users also need able find this action details page how works shows link top only shown when been marked clicking takes user asking reason textarea with label marking case reference name are caption above heading after entering continue sees check answers they entered summary list change will: take back show success banner saying will focused disappear navigating away refreshing tag next recorded activity log include gave: error messages empty: enter too long: must 500 characters less future considerations complete journey needs communications sent that currently separate remember want explore make connection clearer forget send test multiple witnesses regularly several once consider adding bulk functionality reduce number steps",
+    "url": "/design-history/manage-cases/mark-witness-as-not-required-to-attend-court/"
+  },  {
+    "data": {
+      "title": "Mark witness statement as Section 9",
+"section": "manage-cases",      "layout": "post"
+    },
+    "date": "2026-02-06T00:00:00.000Z",
+    "dateString": "6 February 2026",
+    "templateContent": " under section 9 witness statement can read court instead requiring give oral evidence this used uncontroversial where defence does need cross examine users able mark individual statements that case file accurately reflects which have been agreed reading find action details page each how works shows link clicking takes user confirmation asking them confirm they want reference name number caption above heading check are marking right cancel back will: take show success banner top saying 1 marked will disappear when navigating away refreshing tag next change from unmark shown any recorded activity log showing number: future considerations test multiple regularly several once consider adding bulk functionality reduce steps",
+    "url": "/design-history/manage-cases/mark-witness-statement-as-section-9/"
+  },  {
+    "data": {
+      "title": "Unmark witness statement as Section 9",
+"section": "manage-cases",      "layout": "post"
+    },
+    "date": "2026-02-07T00:00:00.000Z",
+    "dateString": "7 February 2026",
+    "templateContent": " recently added ability mark witness statement section 9 users also need able unmark circumstances change example defence objects being read now needs give oral evidence find this action details page under each that been marked how works when shows link clicking takes user confirmation asking them confirm they want case reference name number caption above heading can check are unmarking right cancel back will: take show success banner top saying 1 unmarked will disappear navigating away refreshing remove tag from next other statements recorded activity log showing number: future considerations test multiple regularly several once consider adding bulk functionality reduce steps",
+    "url": "/design-history/manage-cases/unmark-witness-statement-as-section-9/"
+  },  {
+    "data": {
       "title": "Allowing users to see which cases they’ve recently opened",
 "section": "manage-cases",      "layout": "post"
     },
