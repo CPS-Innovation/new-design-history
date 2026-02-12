@@ -14,5 +14,24 @@ The primary aim was to understand whether users could:
 * navigate folder structures at scale
 
 
+## What worked well
 
-![The overview page showing a "Recently viewed cases" section at the bottom. The section lists 5 cases, each with their reference number and either an operation name or defendant name as a link.](/manage-cases/allowing-users-to-see-which-cases-theyve-recently-opened/overview-with-recent-cases.png)
+![Caption to be reviewed.](/lcc/manage-materials-tab.png)
+
+Testing showed that the designs:
+
+* felt familiar and approachable, closely matching shared drive mental models
+* supported confident navigation for many users without instruction
+* made previewing materials easy and instinctive
+* enabled users to find, rename and act on files successfully
+* had a high degree of learnability, with users reusing patterns confidently once learned
+
+## What did not work well
+
+Despite overall task completion, several usability issues were identified:
+
+### Navigating up and across folder structures
+
+Some users did not recognise breadcrumbs as a navigation tool.
+
+Others relied on “clear data” to return to the start, treating it as primary navigation.
