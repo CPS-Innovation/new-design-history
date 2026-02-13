@@ -1,6 +1,6 @@
 ---
 override:tags: []
-layout: collection
+layout: product
 title: Review and redact a case
 description: A tool for reviewing and redacting cases
 pagination:
@@ -13,5 +13,5 @@ eleventyComputed:
     title: Review and redact a case (legacy)
     key: polaris
     excerpt: "{{ description }}"
-    parent: home
+    parent: Home
 ---

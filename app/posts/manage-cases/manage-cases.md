@@ -1,6 +1,6 @@
 ---
 override:tags: []
-layout: collection
+layout: product
 title: Manage cases
 description: A service to help users manage criminal cases
 pagination:
@@ -13,5 +13,5 @@ eleventyComputed:
     title: Manage cases
     key: manage-cases
     excerpt: "{{ description }}"
-    parent: home
+    parent: Home
 ---
