@@ -1,17 +1,17 @@
 ---
 override:tags: []
 layout: collection
-title: Manage materials
-description: A service to help users manage criminal cases
+title: Large and Comples Cases (LCC)
+description: A service to help users manage case admin and materials in large or complex cases
 pagination:
-  data: collections.manage-materials
+  data: collections.lcc
   reverse: true
   size: 50
-permalink: "manage-materials/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}{% endif %}/"
+permalink: "lcc/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}{% endif %}/"
 eleventyComputed:
   eleventyNavigation:
-    title: Manage materials
-    key: manage-materials
+    title: Large and Complex Cases
+    key: lcc
     excerpt: "{{ description }}"
     parent: home
 ---
