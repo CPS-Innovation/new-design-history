@@ -1,6 +1,6 @@
 ---
 override:tags: []
-layout: collection
+layout: product
 title: Log a redaction
 description: A tool to log redactions made to CPS cases
 pagination:
@@ -14,5 +14,5 @@ eleventyComputed:
     title: Log a redaction
     key: redaction-log
     excerpt: "{{ description }}"
-    parent: home
+    parent: Home
 ---

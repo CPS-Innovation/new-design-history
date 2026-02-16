@@ -1,9 +1,11 @@
+@use "pkg:govuk-frontend/dist/govuk" as govuk;
+
 .app-screenshots__contents,
 .app-screenshots__screenshot {
-  margin-bottom: govuk-spacing(9);
+  margin-bottom: govuk.govuk-spacing(9);
 }
 
-@include govuk-media-query($media-type: print) {
+@include govuk.govuk-media-query($media-type: print) {
   // Separate screenshots from surrounding content
   .app-screenshots {
     page-break-before: always;

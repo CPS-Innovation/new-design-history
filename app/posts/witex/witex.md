@@ -1,6 +1,6 @@
 ---
 override:tags: []
-layout: collection
+layout: product
 title: Claim witness expenses
 description: Claiming witness expenses online
 pagination:
@@ -13,5 +13,5 @@ eleventyComputed:
     title: Claim witness expenses
     key: witex
     excerpt: "{{ description }}"
-    parent: home
+    parent: Home
 ---
