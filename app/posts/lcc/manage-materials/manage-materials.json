@@ -4,7 +4,7 @@
   "tags": ["lcc"],
   "eleventyComputed": {
     "eleventyNavigation": {
-      "parent": "lcc",
+      "parent": "manage-materials",
        "key": "{{ page.fileSlug }}",
       "excerpt": "{{ description }}"
     }
