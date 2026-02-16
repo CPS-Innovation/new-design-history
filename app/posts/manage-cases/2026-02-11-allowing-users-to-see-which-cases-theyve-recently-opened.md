@@ -17,4 +17,6 @@ Each case is shown as a link with the case reference followed by either the oper
 
 The section is shown to all users and only appears once the user has viewed at least one case.
 
+A maximum of 5 cases will appear in the list.
+
 ![The overview page showing a "Recently viewed cases" section at the bottom. The section lists 5 cases, each with their reference number and either an operation name or defendant name as a link.](/manage-cases/allowing-users-to-see-which-cases-theyve-recently-opened/overview-with-recent-cases.png)
