@@ -145,6 +145,7 @@ app/images/witex/.DS_Store
 app/posts/.DS_Store
 
 _site
+public
 tmp/
 .claude
 

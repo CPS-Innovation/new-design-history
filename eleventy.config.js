@@ -5,7 +5,7 @@ import { govukEleventyPlugin } from '@x-govuk/govuk-eleventy-plugin'
 export default function (eleventyConfig) {
   eleventyConfig.addPlugin(govukEleventyPlugin, {
     header: {
-      productName: 'CPS Design History',
+      productName: 'CPS design history',
       search: {
         indexPath: '/search-index.json',
         sitemapPath: '/sitemap'
