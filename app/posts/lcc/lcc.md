@@ -1,7 +1,7 @@
 ---
 override:tags: []
-layout: collection
-title: Large and Comples Cases (LCC)
+layout: product
+title: Large and Complex Cases (LCC)
 description: A service to help users manage case admin and materials in large or complex cases
 pagination:
   data: collections.lcc
@@ -13,5 +13,5 @@ eleventyComputed:
     title: Large and Complex Cases
     key: lcc
     excerpt: "{{ description }}"
-    parent: home
+    parent: Home
 ---

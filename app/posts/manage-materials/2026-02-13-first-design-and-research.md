@@ -1,6 +1,6 @@
 ---
-title: Making it easier to find, organise and work with case materials
-date: 2026-02-12
+title: First design and research
+date: 2026-02-13
 ---
 #### How we are researching and designing a way for users to find, organise and work with case materials in large and complex cases.
 

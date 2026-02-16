@@ -1,6 +1,6 @@
 ---
-title: Large and Complex Cases (LCC)
-date: 2026-02-13
+title: First design iteration and research
+date: 2026-02-12
 ---
 #### How we are researching and designing a way for users to find, organise and work with case materials in large and complex cases.
 
