@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>First linear prototype - CPS Design History - GOV.UK</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0b0c0c">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+      <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="/assets/images/favicon.ico" type="image/x-icon">
+      <link rel="mask-icon" href="/assets/images/govuk-mask-icon.svg" color="#0b0c0c">
+      <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/govuk-apple-touch-icon-180x180.png">
+      <link rel="apple-touch-icon" sizes="167x167" href="/assets/images/govuk-apple-touch-icon-167x167.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/govuk-apple-touch-icon-152x152.png">
+      <link rel="apple-touch-icon" href="/assets/images/govuk-apple-touch-icon.png">
+
+<!-- <link href="/stylesheets/application.css" media="all" rel="stylesheet" type="text/css"> -->
+<link rel="stylesheet" href="/design-history/stylesheets/application.css">
+<meta property="og:title" content="First linear prototype">
+<meta property="og:description" name="description" content="Testing initial ideas and length of journey. Not all sections are in here"><meta name="robots" content="noindex nofollow">
+
+    
+  </head>
+  <body class="govuk-template__body ">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+      <a href="#main-content" class="govuk-skip-link" data-module="govuk-skip-link">Skip to main content</a>
+
+
+  <header class="govuk-header app-header" role="banner" data-module="govuk-header">
+  <div class="govuk-header__container govuk-width-container app-header__container">
+    <div class="govuk-header__logo app-header__logo">
+      <a href="/" class="govuk-header__link govuk-header__link--homepage">
+<!--         <span class="govuk-header__logotype">
+          <svg
+            role="presentation"
+            focusable="false"
+            class="govuk-header__logotype-crown"
+            xmlns="http://www.w3.org/2000/svg"
+            viewbox="0 0 132 97"
+            height="30"
+            width="36"
+          >
+            <path
+              fill="currentColor" fill-rule="evenodd"
+              d="M25 30.2c3.5 1.5 7.7-.2 9.1-3.7 1.5-3.6-.2-7.8-3.9-9.2-3.6-1.4-7.6.3-9.1 3.9-1.4 3.5.3 7.5 3.9 9zM9 39.5c3.6 1.5 7.8-.2 9.2-3.7 1.5-3.6-.2-7.8-3.9-9.1-3.6-1.5-7.6.2-9.1 3.8-1.4 3.5.3 7.5 3.8 9zM4.4 57.2c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.5-1.5-7.6.3-9.1 3.8-1.4 3.5.3 7.6 3.9 9.1zm38.3-21.4c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.6-1.5-7.6.3-9.1 3.8-1.3 3.6.4 7.7 3.9 9.1zm64.4-5.6c-3.6 1.5-7.8-.2-9.1-3.7-1.5-3.6.2-7.8 3.8-9.2 3.6-1.4 7.7.3 9.2 3.9 1.3 3.5-.4 7.5-3.9 9zm15.9 9.3c-3.6 1.5-7.7-.2-9.1-3.7-1.5-3.6.2-7.8 3.7-9.1 3.6-1.5 7.7.2 9.2 3.8 1.5 3.5-.3 7.5-3.8 9zm4.7 17.7c-3.6 1.5-7.8-.2-9.2-3.8-1.5-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.3 3.5-.4 7.6-3.9 9.1zM89.3 35.8c-3.6 1.5-7.8-.2-9.2-3.8-1.4-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.4 3.6-.3 7.7-3.9 9.1zM69.7 17.7l8.9 4.7V9.3l-8.9 2.8c-.2-.3-.5-.6-.9-.9L72.4 0H59.6l3.5 11.2c-.3.3-.6.5-.9.9l-8.8-2.8v13.1l8.8-4.7c.3.3.6.7.9.9l-5 15.4v.1c-.2.8-.4 1.6-.4 2.4 0 4.1 3.1 7.5 7 8.1h.2c.3 0 .7.1 1 .1.4 0 .7 0 1-.1h.2c4-.6 7.1-4.1 7.1-8.1 0-.8-.1-1.7-.4-2.4V34l-5.1-15.4c.4-.2.7-.6 1-.9zM66 92.8c16.9 0 32.8 1.1 47.1 3.2 4-16.9 8.9-26.7 14-33.5l-9.6-3.4c1 4.9 1.1 7.2 0 10.2-1.5-1.4-3-4.3-4.2-8.7L108.6 76c2.8-2 5-3.2 7.5-3.3-4.4 9.4-10 11.9-13.6 11.2-4.3-.8-6.3-4.6-5.6-7.9 1-4.7 5.7-5.9 8-.5 4.3-8.7-3-11.4-7.6-8.8 7.1-7.2 7.9-13.5 2.1-21.1-8 6.1-8.1 12.3-4.5 20.8-4.7-5.4-12.1-2.5-9.5 6.2 3.4-5.2 7.9-2 7.2 3.1-.6 4.3-6.4 7.8-13.5 7.2-10.3-.9-10.9-8-11.2-13.8 2.5-.5 7.1 1.8 11 7.3L80.2 60c-4.1 4.4-8 5.3-12.3 5.4 1.4-4.4 8-11.6 8-11.6H55.5s6.4 7.2 7.9 11.6c-4.2-.1-8-1-12.3-5.4l1.4 16.4c3.9-5.5 8.5-7.7 10.9-7.3-.3 5.8-.9 12.8-11.1 13.8-7.2.6-12.9-2.9-13.5-7.2-.7-5 3.8-8.3 7.1-3.1 2.7-8.7-4.6-11.6-9.4-6.2 3.7-8.5 3.6-14.7-4.6-20.8-5.8 7.6-5 13.9 2.2 21.1-4.7-2.6-11.9.1-7.7 8.8 2.3-5.5 7.1-4.2 8.1.5.7 3.3-1.3 7.1-5.7 7.9-3.5.7-9-1.8-13.5-11.2 2.5.1 4.7 1.3 7.5 3.3l-4.7-15.4c-1.2 4.4-2.7 7.2-4.3 8.7-1.1-3-.9-5.3 0-10.2l-9.5 3.4c5 6.9 9.9 16.7 14 33.5 14.8-2.1 30.8-3.2 47.7-3.2z"
+            ></path>
+            <image src="/assets/images/govuk-logotype-crown.png" xlink:href="" class="govuk-header__logotype-crown-fallback-image" width="36" height="32"></image>
+          </svg>
+          <span class="govuk-header__logotype-text">
+            GOV.UK
+          </span>
+        </span> -->
+        <span class="govuk-header__product-name">
+          CPS Design History
+        </span>
+      </a>
+    </div>
+    <div class="app-site-search govuk-!-display-none-print" data-module="app-search" data-search-index="/search.json">
+      <label class="govuk-visually-hidden" for="app-site-search__input">Search design history</label>
+      <a class="app-site-search__link govuk-link-no-visited" href="/sitemap">Sitemap</a>
+    </div>
+  </div>
+</header>
+
+
+      <div class="govuk-width-container ">
+  <div class="govuk-breadcrumbs govuk-!-display-none-print">
+  <ol class="govuk-breadcrumbs__list">    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/design-history/">A design history for CPS</a>
+    </li>    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/design-history/witex/">Claim witness expenses</a>
+    </li>    <li class="govuk-breadcrumbs__list-item" aria-current="page">First linear prototype</li>
+  </ol>
+</div>
+
+        <main class="govuk-main-wrapper govuk-main-wrapper--auto-spacing" id="main-content" role="main">
+<article class="app-article">
+  <header class="app-article__header govuk-!-width-two-thirds">
+    <h1 class="app-article__title govuk-heading-xl">First linear prototype</h1>
+  </header>
+
+  <div class="app-article__body">  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <div class="app-prose"><ul>
+<li>This is one of our first rought drafts of a linear prototype. Based on the UR we did on the sketches and drawings of the 3 versions.</li>
+</ul>
+<!-- ## User needs
+
+<b>As a prosecuter </b>
+I need to find a case<br />
+
+<b>As a prosecuter </b>
+I need to do the thing<br /> -->
+<section class="app-screenshots app-prose govuk-!-margin-top-9" id="screenshots">
+  <div class="govuk-!-display-none-print">
+    <h2 tabindex="-1">
+      <a class="header-anchor" href="#screenshots">Screenshots</a>
+    </h2>
+    <ul class="govuk-list app-screenshots__contents"><li><a href="#1-start">1. Start</a></li><li><a href="#2-your-details">2 Your details</a></li><li><a href="#3-email-code">3. Email code</a></li><li><a href="#4-who-are-you-claiming-for">4. Who are you claiming for</a></li><li><a href="#5-claiming-food">5. Claiming food</a></li><li><a href="#6-claiming-food">6. Claiming food</a></li><li><a href="#7-claiming-food">7. Claiming food</a></li><li><a href="#8-claiming-food">8. Claiming food</a></li><li><a href="#9-train-journey">9. Train journey</a></li><li><a href="#10-tube-subway">10. Tube/subway</a></li><li><a href="#11-overnight-stay">11. Overnight stay</a></li><li><a href="#12-did-the-court-pay">12. Did the court pay</a></li><li><a href="#13-pay-for-an-evening-meal">13. Pay for an evening meal</a></li><li><a href="#14-how-many-nights">14. How many nights</a></li><li><a href="#15-did-the-court-pay-no">15. Did the court pay, no</a></li><li><a href="#16-did-you-pay-yes">16. Did you pay, Yes</a></li><li><a href="#17-how-many-nights">17. How many nights</a></li><li><a href="#18-why-did-you-stay">18. Why did you stay</a></li><li><a href="#19-home-postcode">19. Home postcode</a></li><li><a href="#20-where-was-your-accomodation">20. Where was your accomodation</a></li><li><a href="#21-paid-work">21. Paid work</a></li><li><a href="#22-employed-or-self-employed">22. Employed or self employed</a></li><li><a href="#23-unpaid-day-off">23. Unpaid day off</a></li><li><a href="#24-away-for-less-than-4-hours">24. Away for less than 4 hours</a></li><li><a href="#25-away-for-more-than-4-hours">25. Away for more than 4 hours</a></li><li><a href="#26-is-your-take-home-pay-more-than-67">26. Is your take home pay more than £67?</a></li><li><a href="#27-daily-take-home-page">27. Daily take home page</a></li><li><a href="#28-proof-of-employment">28. Proof of employment</a></li><li><a href="#29-employers-details">29. Employers details</a></li><li><a href="#30-childcare">30. Childcare</a></li><li><a href="#31-pet-sitting">31. Pet sitting</a></li><li><a href="#32-other-expenses">32. Other expenses</a></li><li><a href="#33-upload-expenses">33. Upload expenses</a></li><li><a href="#34-choose-how-to-be-paid">34. Choose how to be paid</a></li><li><a href="#35-bank-details">35. Bank details</a></li><li><a href="#36-check-your-details">36. Check your details</a></li><li><a href="#37-finished">37. Finished</a></li>    </ul>
+  </div>
+<figure class="app-screenshots__screenshot" id="1-start">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#1-start">1. Start</a>
+    </h3>
+    <a href="1.png"><img src="1.png" alt="Screenshot of 1. Start"></a><figcaption><p>Using the standard start pattern. Telling users what they need to have before they start, in particular about the receipts they need.   <br /><br />We also considered whether we front-load the login page with a list of requirements for a user - e.g. evidence of receipts, details of the court dates - to ensure a user didn’t have to leave the journey as they didn’t know what they needed to complete it.<br /> <br /> <b>User Research</b><br /><br />We found that users often had no idea about expenses when they started to fill in the current offline form. <br /><br /> They hadn’t receieved any guidance so the info here isn’t enough - they need to know what they can claim for, how much etc before they start the claim, ideally before they incur expenses.</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="2-your-details">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#2-your-details">2 Your details</a>
+    </h3>
+    <a href="2.png"><img src="2.png" alt="Screenshot of 2 Your details"></a><figcaption><p>We weren’t really testing this in detail as the onboarding process had not been figured out.  <br /><br /> <b>User Research</b><br /><br />Users were happy to give us this information</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="3-email-code">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#3-email-code">3. Email code</a>
+    </h3>
+    <a href="3.png"><img src="3.png" alt="Screenshot of 3. Email code"></a><figcaption><p>We weren’t really testing this in detail as the onboarding process had not been figured out.  <br /><br /> <b>User Research</b><br /><br />Users understood this</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="4-who-are-you-claiming-for">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#4-who-are-you-claiming-for">4. Who are you claiming for</a>
+    </h3>
+    <a href="4.png"><img src="4.png" alt="Screenshot of 4. Who are you claiming for"></a><figcaption><p>We weren’t really testing this in detail as the onboarding process had not been figured out. <br /><br /> <b>User Research</b><br /><br />N/A</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="5-claiming-food">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#5-claiming-food">5. Claiming food</a>
+    </h3>
+    <a href="5.png"><img src="5.png" alt="Screenshot of 5. Claiming food"></a><figcaption><p>Food and drink can be claimed by anyone.    <br /><br /> <b>User Research</b><br /><br />This was often the first time users had come across the rates for food and drink. Users often expected to need receipts and be able to claim for the amounts they spent, this was a suprise and the actual rates (especially in London) we’re seen as too low<br /><br />It wan’t clear that the amount of time is for away from home or work rather than just being in court.</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="6-claiming-food">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#6-claiming-food">6. Claiming food</a>
+    </h3>
+    <a href="6.png"><img src="6.png" alt="Screenshot of 6. Claiming food"></a><figcaption><p>This mirrors the way the current blue form asks this question, and is before the MVP restricted claims to one day or less.   <br /><br /> <b>User Research</b><br /><br />This didn’t really work:<br />- users quite often put in hours rather than days<br /><br />- they didn’t know what the next questions were, about 5-10 hours etc, and found that was confusing<br /><br /> they often thought they could only claim for the time there were in court<br /><br />- a minority of users put an amount they wanted to claim in here rather than the number of days</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="7-claiming-food">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#7-claiming-food">7. Claiming food</a>
+    </h3>
+    <a href="7.png"><img src="7.png" alt="Screenshot of 7. Claiming food"></a><figcaption><p>Same as 6. Claiming food  <br /><br /> <b>User Research</b><br /><br /></p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="8-claiming-food">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#8-claiming-food">8. Claiming food</a>
+    </h3>
+    <a href="8.png"><img src="8.png" alt="Screenshot of 8. Claiming food"></a><figcaption><p>Same as 6. Claiming food  <br /><br /> <b>User Research</b><br /><br /></p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="9-train-journey">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#9-train-journey">9. Train journey</a>
+    </h3>
+    <a href="9.png"><img src="9.png" alt="Screenshot of 9. Train journey"></a><figcaption><p>We tried a few different ways of asking this quesion - users could add up the total cost of their journeys or add them individually.  <br /><br /> <b>User Research</b><br /><br />This generally worked ok, users preferred to add in a total than to add individual tickets or journeys.<br /><br />In an earlier version users did not always see the content telling them about receipts, adding the emphasis made it clearer and more likely the user would read it.</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="10-tube-subway">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#10-tube-subway">10. Tube/subway</a>
+    </h3>
+    <a href="10.png"><img src="10.png" alt="Screenshot of 10. Tube/subway"></a><figcaption><p>This transport option does not need a receipt, we wanted to check the language and see if users understood that they did not need to add receipts for this option. <br /><br /> <b>User Research</b><br /><br />Some users missed the content telling them that they did not need receipts.</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="11-overnight-stay">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#11-overnight-stay">11. Overnight stay</a>
+    </h3>
+    <a href="11.png"><img src="11.png" alt="Screenshot of 11. Overnight stay"></a><figcaption><p>The policy on overnight stay has a lot of options that affect how much you can claim - whether you paid for yourself, stayed with friends, which city you were in etc. This is our first attempt to explain it to users.  <br /><br /> <b>User Research</b><br /><br />Some of the reasons you could stay were a bit vague - ‘live too far away from home’<br /><br />The detailed copy wasn’t entirely clear and needs to be simplifed further<br /><br /> Users didn’t know who the CPS was or who paid for their stay when it was paid for.</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="12-did-the-court-pay">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#12-did-the-court-pay">12. Did the court pay</a>
+    </h3>
+    <a href="12.png"><img src="12.png" alt="Screenshot of 12. Did the court pay"></a><figcaption><p>This option is a part of a series of questions that are attempting to guide the user to how much they can claim.  <br /><br /> <b>User Research</b><br /><br />Users didn’t get the court pay part of the content, they weren’t sure who paid for their overnight stay when it had been paid for.</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="13-pay-for-an-evening-meal">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#13-pay-for-an-evening-meal">13. Pay for an evening meal</a>
+    </h3>
+    <a href="13.png"><img src="13.png" alt="Screenshot of 13. Pay for an evening meal"></a><figcaption><p>If the court payed for the users overnight stay, they may still have had to pay for an evening meal themselves. If so they can claim an extra £21 a night to cover this.  <br /><br /> <b>User Research</b><br /><br />This was clear to users. Although we will clarify the policy to show that users get £26 a night rather than £21 and £5.</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="14-how-many-nights">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#14-how-many-nights">14. How many nights</a>
+    </h3>
+    <a href="14.png"><img src="14.png" alt="Screenshot of 14. How many nights"></a><figcaption><p>This was before we changed the MVP to just be one day or less at court. The wording needed to be clear that it was the amount of time the user had been told they had to stay - some users try and book more time than is needed.  <br /><br /> <b>User Research</b><br /><br />Users understood this</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="15-did-the-court-pay-no">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#15-did-the-court-pay-no">15. Did the court pay, no</a>
+    </h3>
+    <a href="12b.png"><img src="12b.png" alt="Screenshot of 15. Did the court pay, no"></a><figcaption><p>If users choose No to this option, they will have paid themselves or stayed with friends or family.  <br /><br /> <b>User Research</b><br /><br />Again, users didn’t really understand ‘the court paying’ for the overnight stay.</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="16-did-you-pay-yes">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#16-did-you-pay-yes">16. Did you pay, Yes</a>
+    </h3>
+    <a href="15b.png"><img src="15b.png" alt="Screenshot of 16. Did you pay, Yes"></a><figcaption><p>The user paid for their overnight stay themselves. The content was not entirely clear and we worked to improve it  <br /><br /> <b>User Research</b><br /><br />Users understood what to do but the content was not entirely clear.</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="17-how-many-nights">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#17-how-many-nights">17. How many nights</a>
+    </h3>
+    <a href="16b.png"><img src="16b.png" alt="Screenshot of 17. How many nights"></a><figcaption><p>This is the same as point 14 but in a slightly differnt journey</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="18-why-did-you-stay">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#18-why-did-you-stay">18. Why did you stay</a>
+    </h3>
+    <a href="17b.png"><img src="17b.png" alt="Screenshot of 18. Why did you stay"></a><figcaption><p>Users need to have a good reason to stay overnight, there are several reasons why this might be. The main two are pulled out.  <br /><br /> <b>User Research</b><br /><br />The reasons, especially the first one are not clear enough - e.g. how far is too far away.</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="19-home-postcode">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#19-home-postcode">19. Home postcode</a>
+    </h3>
+    <a href="18b.png"><img src="18b.png" alt="Screenshot of 19. Home postcode"></a><figcaption><p>We use the home postcode to determine if the user lived too far away to get public transport etc. This will be removed in the MVP as we collect postcode at the start  <br /><br /> <b>User Research</b><br /><br />Users understood this and why they were being asked</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="20-where-was-your-accomodation">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#20-where-was-your-accomodation">20. Where was your accomodation</a>
+    </h3>
+    <a href="19b.png"><img src="19b.png" alt="Screenshot of 20. Where was your accomodation"></a><figcaption><p>We pay different rates to users depending on where in the country they had to stay.  <br /><br /> <b>User Research</b><br /><br />Users understood the principle but it was not clear on what the definition of these areas are - what is London, within M25, london only postcodes etc etc. There was also a discussion about other expensive cities e.g. brighton and why these were not included.</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="21-paid-work">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#21-paid-work">21. Paid work</a>
+    </h3>
+    <a href="20.png"><img src="20.png" alt="Screenshot of 21. Paid work"></a><figcaption><p>Users can claim for time off from an employed or self employed position  <br /><br /> <b>User Research</b><br /><br />This was clear</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="22-employed-or-self-employed">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#22-employed-or-self-employed">22. Employed or self employed</a>
+    </h3>
+    <a href="21.png"><img src="21.png" alt="Screenshot of 22. Employed or self employed"></a><figcaption><p>The claim amounts and process is different for employed and self employed people.  <br /><br /> <b>User Research</b><br /><br />Users understood this but we did find out later that directors of Ltd companies would sometimes put themselves down as self employed, which is incorrect.</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="23-unpaid-day-off">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#23-unpaid-day-off">23. Unpaid day off</a>
+    </h3>
+    <a href="22.png"><img src="22.png" alt="Screenshot of 23. Unpaid day off"></a><figcaption><p>We will only pay for an unpaid day off work. Paid holiday does not count so we needed to call this out in a screen.   <br /><br /> <b>User Research</b><br /><br />Users didn’t seem to know that only unpaid days off would be paid for, but they understood this screen. <br /><br />The notice about providing employers details or payslip needs to be clearer, why employers details, which payslip.</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="24-away-for-less-than-4-hours">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#24-away-for-less-than-4-hours">24. Away for less than 4 hours</a>
+    </h3>
+    <a href="23.png"><img src="23.png" alt="Screenshot of 24. Away for less than 4 hours"></a><figcaption><p>If users spent less than 4 hours away from work they will get upto £33.50 and £67 for a full day. This was to see how many days they had been away for less than 4 hours.  <br /><br /> <b>User Research</b><br /><br />This and the next screen doesn’t really work. Users would put hours into the box, didn’t understand that they should put the amount of time away from work rather than the time in court and they didn’t know about the next page which made it confusing.</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="25-away-for-more-than-4-hours">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#25-away-for-more-than-4-hours">25. Away for more than 4 hours</a>
+    </h3>
+    <a href="24.png"><img src="24.png" alt="Screenshot of 25. Away for more than 4 hours"></a><figcaption><p>Same as above  <br /><br /></p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="26-is-your-take-home-pay-more-than-67">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#26-is-your-take-home-pay-more-than-67">26. Is your take home pay more than £67?</a>
+    </h3>
+    <a href="25.png"><img src="25.png" alt="Screenshot of 26. Is your take home pay more than £67?"></a><figcaption><p>The policy was to pay users a maximum of £67 a day, which is only just above the adult minimum wage per person. If they earned less, then we would need to know how much they earned in order to pay them that amount. Our hypothesis was that users would find this difficult to know or workout.   <br/><br /> The current form asks employers to fill out the amount that a user would have lost on the day they were off, we didn’t want to use this method in the digital form for several reasons - we’d heard from users that a significant percentage would not want to tell their employer they were going to court, we were not convinced that the calculations would be accurate just because employers were doing it and we didn’t want to add a process that would stop or delay the process because of a reliance on a 3rd party. <br /><br /> <b>User Research</b><br /><br />Some users knew that they earned over £67 a day, but a significant amount of users didn’t know how much they earned per day which would lead them down a route of being asked to calculate it.</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="27-daily-take-home-page">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#27-daily-take-home-page">27. Daily take home page</a>
+    </h3>
+    <a href="26.png"><img src="26.png" alt="Screenshot of 27. Daily take home page"></a><figcaption><p>We didn’t think that asking users to work out their daily pay before deductions is a viable option. Calculating post tax income is difficult and has many variables that can change it. Users who are not numerate or have dyspraxia would find this difficult or impossible. However we put it in to test our assumption that it would cause problems  <br /><br /> <b>User Research</b><br /><br />Users would find it difficult to work this out quickly and accurately. We also had a dyspraxic user who told us it would be difficult for her to use this section if she had to work out earnings.</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="28-proof-of-employment">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#28-proof-of-employment">28. Proof of employment</a>
+    </h3>
+    <a href="27.png"><img src="27.png" alt="Screenshot of 28. Proof of employment"></a><figcaption><p>We want to check that the person claing for an unpaid day off work is actually employed. We are not checking how much they earn. We have two options. For users who are happy for their employer to possibly know that they were in court we ask them to give their employer details so that we can check they are employed. If not, they can upload a payslip to show they were in employment at the time.  <br /><br /> <b>User Research</b><br /><br />Users seemed to understand this and why it was being asked.</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="29-employers-details">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#29-employers-details">29. Employers details</a>
+    </h3>
+    <a href="28.png"><img src="28.png" alt="Screenshot of 29. Employers details"></a><figcaption><p>We are asking for information that we could use to check with an employer that the user was employed at the time they were claiming an unpaid day off work. If the user has multiple jobs we only need one employer.  <br /><br /> <b>User Research</b><br /><br />Users seemed to understand this, but felt we should be clearer that this info might be used to contact the employer and check they were employed.</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="30-childcare">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#30-childcare">30. Childcare</a>
+    </h3>
+    <a href="29.png"><img src="29.png" alt="Screenshot of 30. Childcare"></a><figcaption><p>Users can claim for childcare if they needed to pay for it whilst they were in court - but only if they did not claim for unpaid days off work.   <br /><br /> <b>User Research</b><br /><br />Users seemed to understand that they could claim for childcare when they reached this page but were often surprised that they could claim for this. The content needs work to make it simpler and clearer.</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="31-pet-sitting">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#31-pet-sitting">31. Pet sitting</a>
+    </h3>
+    <a href="30.png"><img src="30.png" alt="Screenshot of 31. Pet sitting"></a><figcaption><p>Users can claim for pet sitting if they had to get someone to look after their pets while they were in court. This is not pulled out as a specific category in the current blue form but has the highest volume of claims in the ‘other expenses’ section.    <br /><br /> <b>User Research</b><br /><br />Users generally were very surprised by this, some thought it made sense but we frequently heard people saying that it was open to fraud and that they thought some people would try it on. We also heard surprise that the amounts were the same as childcare and an unpaid day off for a person, as well as there being a section for pet care but not adult care.</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="32-other-expenses">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#32-other-expenses">32. Other expenses</a>
+    </h3>
+    <a href="31.png"><img src="31.png" alt="Screenshot of 32. Other expenses"></a><figcaption><p>This is a catch all for expenses that tend to have fewer claims or relate to unique circumstances. We have added a few examples to help users who need to claim for other expenses.  <br /><br /> <b>User Research</b><br /><br />Users generally understood this section.</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="33-upload-expenses">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#33-upload-expenses">33. Upload expenses</a>
+    </h3>
+    <a href="32.png"><img src="32.png" alt="Screenshot of 33. Upload expenses"></a><figcaption><p>Users preferred the upload to be at the end of the journey and generally understood what this section was and how it worked.   <br /><br /> <b>User Research</b><br /><br />Most users understood this but some commented that their elderly relatives may have trouble uploading receipts to the service. Most users on a desktop said they would take a photo of a receipt on their phone, email it to themselves and then upload it. Mobile users would take a photo of the receipt and upload it from the phone/tablet.</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="34-choose-how-to-be-paid">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#34-choose-how-to-be-paid">34. Choose how to be paid</a>
+    </h3>
+    <a href="33.png"><img src="33.png" alt="Screenshot of 34. Choose how to be paid"></a><figcaption><p>Choice of how to be paid  <br /><br /> <b>User Research</b><br /><br />Users understood this and didn’t ask for any more options.</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="35-bank-details">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#35-bank-details">35. Bank details</a>
+    </h3>
+    <a href="34.png"><img src="34.png" alt="Screenshot of 35. Bank details"></a><figcaption><p>Standard GDS pattern to collect bank/building society details  <br /><br /> <b>User Research</b><br /><br />Users understood this, we had a comment that the page title should be UK bank or building society… to match the question on the previous page.</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="36-check-your-details">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#36-check-your-details">36. Check your details</a>
+    </h3>
+    <a href="35.png"><img src="35.png" alt="Screenshot of 36. Check your details"></a><figcaption><p>This is a fairly standard GDS check you answers page showing everything the user has entered. <br /><br />Users really liked this, they wanted a way to double check their answers and go back and change them if need be. Suprisingly few unprompted users asked for a summary or total of the amounts to be claimed. When we prompted them by asking if it was something they needed the vast majority said it was.</p>
+</figcaption>  </figure><figure class="app-screenshots__screenshot" id="37-finished">
+    <h3 tabindex="-1">
+      <a class="header-anchor" href="#37-finished">37. Finished</a>
+    </h3>
+    <a href="36.png"><img src="36.png" alt="Screenshot of 37. Finished"></a><figcaption><p>This is a fairly standard GDS style finish page.  <br /><br /> <b>User Research</b><br /><br />Users wanted a phone number and email address to contact in case the’re claim was not paid in time or if they had a question. When we discussed what should be in the email several users wanted to see the full check your answers page and a summary of the amounts claimed so if there was a question they had something to refer back to</p>
+</figcaption>  </figure></section>
+<!-- ## User research --></div>
+
+
+        
+    </div>
+
+  </div>
+</div>
+
+  <footer class="app-article__footer">
+      Published <time datetime="2023-01-10T00:00:00.000Z">10 January 2023</time><br>
+  </footer>
+</article>
+        </main>
+      </div>
+
+  <div class="govuk-!-display-none-print">
+    <footer class="govuk-footer " role="contentinfo">
+  <div class="govuk-width-container ">
+    <div class="govuk-footer__meta">
+      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+          <h2 class="govuk-visually-hidden">Support links</h2>
+            <ul class="govuk-footer__inline-list">
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="/sitemap">
+                    Sitemap
+                  </a>
+                </li>
+            </ul>
+
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          class="govuk-footer__licence-logo"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 483.2 195.7"
+          height="17"
+          width="41"
+        >
+          <path
+            fill="currentColor"
+            d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"
+          />
+        </svg>
+        <span class="govuk-footer__licence-description">
+            All content is available under the
+            <a
+              class="govuk-footer__link"
+              href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+              rel="license"
+            >Open Government Licence v3.0</a>, except where otherwise stated
+        </span>
+      </div>
+      <div class="govuk-footer__meta-item">
+        <a
+          class="govuk-footer__link govuk-footer__copyright-logo"
+          href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/"
+        >© Crown copyright</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+
+    <script src="/javascripts/govuk-frontend.js"></script>
+    <script src="/javascripts/application.js"></script>
+  </body>
+</html>
