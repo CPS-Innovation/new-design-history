@@ -2,7 +2,7 @@
 override:tags: []
 layout: product
 title: Manage materials
-description: Making it easier to find, organise and work with case materials
+description: Making it easier to find, organise and work with case materials in Large or Complex Cases (LCC)
 pagination:
   data: collections.manage-materials
   reverse: true
