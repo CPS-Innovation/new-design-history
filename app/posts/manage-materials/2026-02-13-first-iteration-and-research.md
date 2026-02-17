@@ -1,6 +1,6 @@
 ---
 title: Manage case materials – usability testing and iteration
-date: 2026-02-16
+date: 2026-02-17
 ---
 
 ## Next design iteration
@@ -15,7 +15,7 @@ These changes focused on improving navigation, confidence, and efficiency when w
 
 To address the navigation issue with copy and move, we introduced a tree structure when copying or moving materials.
 
-<< IMAGE >>
+![Caption to be reviewed.](/lcc/folder-tree.png)
 
 This change:
 
@@ -30,7 +30,7 @@ This iteration directly addresses a critical usability risk identified in round 
 
 To address this, search was moved into a reveal at the top of the materials view, separate from filters.
 
-<< IMAGE >>
+![Caption to be reviewed.](/lcc/search.png)
 
 This change:
 
@@ -42,7 +42,7 @@ This change:
 
 #### Supporting multiple file rename
 
-<< IMAGE >>
+![Caption to be reviewed.](/lcc/rename.png)
 
 This change:
 
@@ -52,7 +52,7 @@ This change:
 
 #### Sorting files up and down the list
 
-<< IMAGE >>
+![Caption to be reviewed.](/lcc/sort.png)
 
 We have introduced the ability to sort files up and down the list, allowing users to reorder materials directly.
 
