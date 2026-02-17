@@ -1,10 +1,10 @@
 ---
 title: Manage case materials – initial design based on existing patterns
-date: 2026-02-16
+date: 2026-02-17
 ---
 #### How we are researching and designing a way for users to find, organise and work with case materials in large and complex cases.
 
-This work focused on testing whether the initial manage case materials designs, based earlier insight, allowed operational delivery colleagues to work effectively with large and complex cases.
+This work focused on testing whether the initial manage case materials designs, based on earlier insight, allowed operational delivery colleagues to work effectively with large and complex cases.
 
 The primary aim was to understand whether users could:
 * move materials between folders
