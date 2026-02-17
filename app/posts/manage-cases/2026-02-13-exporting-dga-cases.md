@@ -3,7 +3,7 @@ title: Exporting DGA cases
 date: 2026-02-13
 ---
 
-Before recording dispute outcomes, legal managers need to share DGA case data with police forces so they can review the assessments and raise any disputes.
+Before recording dispute outcomes, area performance managers need to share DGA case data with police forces so they can review the assessments and raise any disputes.
 
 Users find this action on the month page for each police unit.
 
