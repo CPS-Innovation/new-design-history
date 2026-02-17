@@ -1,6 +1,6 @@
 ---
-title: First design and research
-date: 2026-02-13
+title: Manage case materials – initial design based on existing patterns
+date: 2026-02-16
 ---
 #### How we are researching and designing a way for users to find, organise and work with case materials in large and complex cases.
 

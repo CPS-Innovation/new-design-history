@@ -1,67 +1,85 @@
 ---
-title: First design iteration and research
-date: 2026-02-12
+title: Manage case materials – usability testing and iteration
+date: 2026-02-16
 ---
-#### How we are researching and designing a way for users to find, organise and work with case materials in large and complex cases.
 
-This work focused on testing whether the initial manage case materials designs, based earlier insight, allowed operational delivery colleagues to work effectively with large and complex cases.
+## Next design iteration
 
-The primary aim was to understand whether users could:
-* move materials between folders
-* copy materials to create working copies
-* find specific files using search
-* rename files and place them in the correct location
-* navigate folder structures at scale
+Based on findings from usability testing with operational delivery colleagues and follow‑up research with lawyers, we iterated the manage case materials designs to address specific usability risks and downstream legal needs.
 
+These changes focused on improving navigation, confidence, and efficiency when working at scale.
 
-## What worked well
+## Changes informed by operational delivery research
 
-![Caption to be reviewed.](/lcc/manage-materials-tab.png)
+#### Introducing a tree structure for copy and move
 
-Testing showed that the designs:
+To address the navigation issue with copy and move, we introduced a tree structure when copying or moving materials.
 
-* felt familiar and approachable, closely matching shared drive mental models
-* supported confident navigation for many users without instruction
-* made previewing materials easy and instinctive
-* enabled users to find, rename and act on files successfully
-* had a high degree of learnability, with users reusing patterns confidently once learned
+<< IMAGE >>
 
-## What did not work well
+This change:
 
-Despite overall task completion, several usability issues were identified:
+* makes the destination context explicit during the action
+* removes reliance on breadcrumb navigation mid‑task
+* mirrors users’ mental models from shared drives and file explorers
+* reduces the need for multi‑step workarounds
 
-### Copying and moving materials
+This iteration directly addresses a critical usability risk identified in round one testing.
 
-![Caption to be reviewed.](/lcc/copy-breadcrumbs.png)
+#### Search as a primary tool for locating materials
 
-Users struggled to move or copy items to folders outside their current location.
+To address this, search was moved into a reveal at the top of the materials view, separate from filters.
 
-Several users adopted a two‑step workaround (move to home, then move again).
+<< IMAGE >>
 
-This caused confusion, duplication and loss of confidence. 
+This change:
 
-### Navigating up and across folder structures
+* increases the prominence of search without overwhelming the interface
+* aligns with users’ expectation that search is a quick, on‑demand action
+* reduces visual competition between search and filtering
 
-Some users did not recognise breadcrumbs as a navigation tool.
+## Changes informed by research with lawyers
 
-Others relied on “clear data” to return to the start, treating it as primary navigation.
+#### Supporting multiple file rename
 
+<< IMAGE >>
 
-### Confirmation of actions
+This change:
 
-![Caption to be reviewed.](/lcc/success.png)
+* supports bulk administrative tasks common in legal workflows
+* reduces time spent on repetitive actions
+* aligns the service more closely with how lawyers prepare and review materials
 
-Users often missed green confirmation messages.
+#### Sorting files up and down the list
 
-Some repeated actions or manually checked destinations to confirm success.
+<< IMAGE >>
 
-This reflects an underlying lack of trust that actions have completed correctly.
+We have introduced the ability to sort files up and down the list, allowing users to reorder materials directly.
 
-### Confidence and reassurance
+This supports:
 
-Users frequently double‑checked work due to experience with unreliable systems.
+* sense‑making during review
+* preparation for hearings or disclosure
+* personal and role‑specific ways of working
 
-Some attributed failures to themselves rather than the interface.
+#### Removing numbers from item names
 
+This change:
 
+* decouples ordering from naming
+* reduces the need for repeated renaming
+* allows users to reorganise materials without introducing inconsistency
+
+## Next steps
+
+We will now test these design iterations in a second round of usability testing with caseworkers and paralegals.
+
+This round will focus on:
+
+* testing the revised search placement
+* assessing the effectiveness of the new tree structure for copy and move
+* confirming that changes reduce navigation and confirmation issues
+* ensuring the designs support confidence and efficiency
+
+Findings from this round will inform any further iterations before progressing the designs.
 
