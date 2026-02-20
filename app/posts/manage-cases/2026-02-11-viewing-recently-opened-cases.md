@@ -1,5 +1,5 @@
 ---
-title: Allowing users to see which cases they’ve recently opened
+title: Viewing recently opened cases
 date: 2026-02-11
 ---
 
@@ -13,10 +13,10 @@ To make this easier, we added a "Recently viewed cases" section to the overview 
 
 Whenever a user visits any page within a case, it should be recorded. If they view the same case again, the timestamp is updated rather than creating a duplicate entry. This means the list always reflects the most recent activity.
 
-Each case is shown as a link with the case reference followed by either the operation name (if the case has one) or the first defendant’s name.
+Each case is shown as a link with the case reference followed by either the operation name (if the case has one) or the first defendant's name.
 
 The section is shown to all users and only appears once the user has viewed at least one case.
 
 A maximum of 5 cases will appear in the list.
 
-![The overview page showing a "Recently viewed cases" section at the bottom. The section lists 5 cases, each with their reference number and either an operation name or defendant name as a link.](/manage-cases/allowing-users-to-see-which-cases-theyve-recently-opened/overview-with-recent-cases.png)
+![The overview page showing a "Recently viewed cases" section at the bottom. The section lists 5 cases, each with their reference number and either an operation name or defendant name as a link.](/manage-cases/viewing-recently-opened-cases/overview-with-recent-cases.png)
