@@ -1,5 +1,5 @@
 ---
-title: Mark witness as required to attend court
+title: Marking a witness as required to attend court
 date: 2026-02-04
 ---
 
@@ -13,13 +13,13 @@ The witness details page shows a "Mark as required to attend court" link at the 
 
 This link is only shown when the witness has not been marked as required to attend court. If the witness has already been marked, the page shows a "Mark as not required to attend court" link instead.
 
-![The witness details page for David Roberts showing the "Mark as required to attend court" link below the witness name and tags.](/manage-cases/mark-witness-as-required-to-attend-court/entry-page.png)
+![The witness details page for David Roberts showing the "Mark as required to attend court" link below the witness name and tags.](/manage-cases/marking-a-witness-as-required-to-attend-court/entry-page.png)
 
 Clicking the link takes the user to a page asking them to confirm they want to mark the witness as required to attend court.
 
 The page shows the case reference and witness name as a caption above the heading, so users can check they are marking the right witness.
 
-![The confirmation page with the heading "Confirm that you want to mark the witness as required to attend court" and a green button to confirm.](/manage-cases/mark-witness-as-required-to-attend-court/step-1-confirmation.png)
+![The confirmation page with the heading "Confirm that you want to mark the witness as required to attend court" and a green button to confirm.](/manage-cases/marking-a-witness-as-required-to-attend-court/step-1-confirmation.png)
 
 Clicking cancel will take the user back to the witness details page.
 
@@ -30,11 +30,11 @@ Clicking "Mark witness as required to attend court" will:
 - show the "Required to attend court" tag next to the witness name
 - change the link to "Mark as not required to attend court"
 
-![The witness details page showing a green success banner saying "Witness marked as required to attend court" and the new "Required to attend court" tag.](/manage-cases/mark-witness-as-required-to-attend-court/step-2-success.png)
+![The witness details page showing a green success banner saying "Witness marked as required to attend court" and the new "Required to attend court" tag.](/manage-cases/marking-a-witness-as-required-to-attend-court/step-2-success.png)
 
 The action is recorded in the activity log:
 
-![The case activity log showing an entry for "Witness marked as required to attend court" by Rachael Harvey with the witness name David Roberts.](/manage-cases/mark-witness-as-required-to-attend-court/activity-log.png)
+![The case activity log showing an entry for "Witness marked as required to attend court" by Rachael Harvey with the witness name David Roberts.](/manage-cases/marking-a-witness-as-required-to-attend-court/activity-log.png)
 
 ## Future considerations
 
