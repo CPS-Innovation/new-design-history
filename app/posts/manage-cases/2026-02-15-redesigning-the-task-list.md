@@ -3,7 +3,7 @@ title: Redesigning the task list
 date: 2026-02-15
 ---
 
-The task list allows case work assistants, paralegal officers and prosecutors process and progress cases.
+The task list allows case work assistants, paralegal officers and prosecutors to process and progress cases.
 
 The current task list has many problems:
 
