@@ -210,4 +210,4 @@ To understand why a task is in a particular group, users would need to know that
 
 We think it would be clearer to have a single due date, with urgency calculated automatically based on how many days remain.
 
-Users would only need to understand one concept - when the task is due - rather than a set of thresholds they cannot easily see or reason about.
+Users would only need to understand one concept - when the task is due - rather than a set of thresholds they cannot easily see or understand.
