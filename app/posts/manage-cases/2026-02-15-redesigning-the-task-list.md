@@ -9,16 +9,15 @@ The current task list has many problems:
 
 - it is not responsive, making it hard to use on smaller screens
 - dates do not follow GOV.UK style, making them hard to read
-- icons are used for actions and meaning which are harder to use and unnecessary
+- icons are used which are harder to use and unnecessary
 - filters are hidden behind dropdowns, which have multiple downsides
 - information is buried inside nested accordions, including empty fields that waste space
 - the language is confusing, for example "escalated" means "very overdue" but does not say that
 - users can only see one unit at a time, even though users work across multiple units
 - tabs split the same list into separate views, fragmenting the user’s workflow
 - the page heading says "Hi [name]" rather than describing what the user is looking at
-- many users maintain their own spreadsheets outside the system because the task list does not support their needs well enough
 
-This negatively impacts how quickly cases are processed and the operating costs of the service.
+Many users maintain their own spreadsheets outside the system because the task list does not support their needs well enough. This negatively impacts how quickly cases are processed and the operating costs of the service.
 
 Many of these issues were flagged in the last service assessment and we committed to improving them.
 
@@ -28,8 +27,6 @@ So we redesigned the task list to address these problems.
 
 When users first go to the task list, it’s pre-filtered to show only tasks they’re assigned to.
 
-This means they see what they need to act on immediately, without having to set filters manually.
-
 Tasks are grouped by severity so the most urgent work is always at the top:
 
 - Critically overdue
@@ -37,7 +34,7 @@ Tasks are grouped by severity so the most urgent work is always at the top:
 - Due soon
 - Not due yet
 
-Each task card shows:
+Each task shows:
 
 - task name (as a link)
 - urgent tag (where applicable)
@@ -55,7 +52,7 @@ Each task card shows:
 - latest note (where applicable)
 - hearing date and type (where applicable)
 
-We only show fields that have values, so cards do not show empty rows.
+We only show fields that have values, so there are no empty rows.
 
 Dates are shown with a bracketed status to help users judge urgency at a glance. For due date, custody time limit, statutory time limit, and hearing date:
 
