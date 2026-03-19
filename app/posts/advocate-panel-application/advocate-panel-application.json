@@ -1,0 +1,12 @@
+{
+  "layout": "post",
+  "permalink": "{{ page.filePathStem | replace('posts/', '') }}/",
+  "tags": ["advocate-panel-application"],
+  "eleventyComputed": {
+    "eleventyNavigation": {
+      "parent": "advocate-panel-application",
+       "key": "{{ page.fileSlug }}",
+      "excerpt": "{{ description }}"
+    }
+  }
+}
