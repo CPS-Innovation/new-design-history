@@ -16,8 +16,8 @@ The contents of the form are based on:
 The form includes a mix of questions including:
 
 - personal details such as the user’s qualifications
-- preferences such as where they want to practice
-- details of referees where needed - references can be requested before the form is submitted
+- preferences such as which Crown Courts they want to work in
+- details of referees - these are needed for many applications
 - equality monitoring questions
 - screening questions about things like whether the user has a criminal record
 - questions about the user’s skills and experience - they may be asked to upload a document as part of this
@@ -39,7 +39,7 @@ For this service, specific issues include:
 
 The current service signs users out after a certain amount of time. 
 
-Research participants mentioned this causing them problems, as did people using the in-service feedback form. 
+Research participants mentioned that this had caused them problems, as did people using the in-service feedback form. 
 
 Some users did not realise that the service had timed out and continued adding information, only realising that there was a problem when they tried to save the form.
 
@@ -130,8 +130,8 @@ In some cases they may also need to answer additional questions, but in this des
 
 The application form includes tasks which are specific to an application including:
 
-- reference requests - there may be zero, one or more of these tasks, and in some cases it’s optional to get a reference
-- examples of work - some appear for all applications, others depend on factors including panel and level
+- reference requests - the user may be required to ask for one or more references, while in some cases it’s optional to get a reference
+- examples of work - some of these tasks appear for all applications, while others appear depending on factors including panel and level
 - background disclosure - these are the screening questions, for example asking if the user has a criminal record
 
 ## Further considerations
@@ -143,11 +143,11 @@ We should consider:
 
 ### Gathering personal details through a linear journey
 
-The application form works well as a task list, since several of the tasks require free text entry of up to 400 words.
+The application form works well as a task list, since several of the tasks require the user to enter up to 400 words.
 
 We know from research that many users write this information in a word processor and then paste it in to the current service. However, we still expect that some users will want to return to make changes to their responses.
 
-This would be awkward to do in a linear flow.
+It would be awkward for them to do this in a linear flow.
 
 It is less clear that the task list pattern is a good fit for the personal details. These are relatively straightforward and may work better as a linear registration flow.
 
@@ -155,9 +155,8 @@ Research on the new design may help us to make this decision.
 
 ### How the personal details task list is presented
 
-We’ve presented the personal details as finishing creating a user’s account. 
+The h1 heading for the personal details task list is “Finish creating your account”.
 
-We want to find out in research how well this works for users. 
+The assumption is that we can present it as a continuation of the registration journey. Since the authentication method has not been decided upon, we do not know how well this will work.
 
-However, it will be difficult to get reliable findings because we will not be testing a design for the registration journey. This is because the authentication method has not yet been decided upon.
-
+We want to find out in research whether users think of these questions as part of their account details. We could consider alternative ways to frame them, such as “Give your personal details” or “Set up your profile”.
