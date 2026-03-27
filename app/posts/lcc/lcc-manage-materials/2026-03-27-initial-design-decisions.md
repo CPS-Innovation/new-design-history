@@ -34,7 +34,7 @@ We wanted to pick up these design patterns to ensure consistency and familiarity
 ![Large and complex cases prototype managing materials tab.](/lcc/lcc-manage-materials-first-design.png)
 
 ### Move from categories to folders
-* Replaced category-based organisation with folders aligned to division and unit structures.
+* Replaced categories with folders
 
 **Reasoning**
 Users already think in terms of folders, which makes materials easier to organise and locate.
@@ -72,7 +72,30 @@ Users need to quickly identify new or unreviewed materials as part of their work
 
 
 ### Updated metadata
-* Replaced "Date" with "Last updated"
+* Replaced 'Date' with 'Last updated'
 
 **Reasoning**
 Users prioritise recency when reviewing materials, rather than the transfer date.
+
+
+### Reduced system messaging
+
+* Removed 'Showing 0 materials out of 20'
+
+**Reasoning**
+The message did not scale well for larger volumes of material and became harder to interpret. Removing it reduces ambiguity and visual noise, supporting clearer understanding.
+
+
+
+## User needs addressed
+
+This design supports users to:
+
+* Find relevant materials quickly
+* Organise materials in a way that reflects their workflow
+* Understand what has and has not been reviewed
+* Take actions efficiently within the interface
+
+
+## Next steps
+Continue iterating based on usability testing.
