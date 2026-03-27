@@ -34,45 +34,45 @@ We wanted to pick up these design patterns to ensure consistency and familiarity
 ![Large and complex cases prototype managing materials tab.](/lcc/lcc-manage-materials-first-design.png)
 
 ### Move from categories to folders
-We replaced category-based organisation with folders aligned to division and unit structures.
+* Replaced category-based organisation with folders aligned to division and unit structures.
 
 **Reasoning**
 Users already think in terms of folders, which makes materials easier to organise and locate.
 
 
 ### Improved navigation
-Added breadcrumb navigation
-Enabled users to move easily between folder levels
+* Added breadcrumb navigation
+* Enabled users to move easily between folder levels
 
 **Reasoning**
 Users need to understand where they are within a hierarchy and move efficiently across it.
 
 
 ### Prioritised key actions
-Introduced a ‘New folder’ button
-Moved ‘Actions on selection’ closer to selected items
+* Introduced a ‘New folder’ button
+* Moved ‘Actions on selection’ closer to selected items
 
 **Reasoning**
 Reducing the distance between content and actions lowers interaction cost and improves efficiency.
 
 ### Simplified layout
-Updated filter panel to create more space for primary actions
-Reduced clutter on the right-hand side of the interface
-Added a contextual header to explain the view
+* Updated filter panel to create more space for primary actions
+* Reduced clutter on the right-hand side of the interface
+* Added a contextual header to explain the view
 
 **Reasoning**
 A clearer layout helps users focus on completing tasks rather than interpreting the interface.
 
 ### Improved filtering
-Updated read/unread filters
-Retained status filters (used, unused, none)
+* Updated read/unread filters
+* Retained status filters (used, unused, none)
 
 **Reasoning**
 Users need to quickly identify new or unreviewed materials as part of their workflow.
 
 
 ### Updated metadata
-Replaced "Date" with "Last updated"
+* Replaced "Date" with "Last updated"
 
 **Reasoning**
 Users prioritise recency when reviewing materials, rather than the transfer date.
