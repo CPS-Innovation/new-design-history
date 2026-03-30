@@ -10,7 +10,7 @@ We ask barristers for:
 - the year they were called to the bar 
 - the start date of their second six months of pupillage - this is commonly known as their ‘second six‘
 
-![A page asking the year the user was called to the bar and the start date of their ‘second six’.](/advocate-panel-application/asking-new-users-for-personal-information/call-to-bar-pupillage.png)
+![A page asking the year the user was called to the bar and the start date of their ‘second six’.](/advocate-panel-application/call-to-the-bar-and-pupillage-task/call-to-bar-pupillage.png)
 
 Solicitors instead get asked about their year of admission to the roll of solicitors. There is no equivalent question to the one about pupillage.
 
