@@ -1,5 +1,5 @@
 ---
-title: Name and bar or Solicitors Regulation Authority (SRA) number task
+title: Name and reference number task
 date: 2026-03-30
 ---
 
@@ -10,7 +10,9 @@ In this task we ask the user for their name and either their:
 - bar number - for barristers
 - Solicitors Regulation Authority (SRA) number - for solicitors
 
-![A page asking the user for their full name and bar number.](/advocate-panel-application/name-and-bar-or-solicitors-regulation-authority-sra-number-task/name-bar-number.png)
+The task is titled as appropriate, so for barristers it is ‘name and bar number‘.
+
+![A page asking the user for their full name and bar number.](/advocate-panel-application/name-and-reference-number-task/name-bar-number.png)
 
 We focused on barristers in research, so we did not create the solicitor version of the task.
 
