@@ -25,7 +25,7 @@ There are separate design history entries for each task within the task list, in
 - [name and bar or Solicitors Regulation Authority (SRA) number](/advocate-panel-application/name-and-bar-or-solicitors-regulation-authority-sra-number-task)
 - [where you work](/advocate-panel-application/where-you-work-task)
 - [preferred circuits and Crown Courts](/advocate-panel-application/preferred-circuits-and-courts)
-- call to the bar and pupillage
+- [call to the bar and pupillage](/advocate-panel-application/call-to-the-bar-and-pupillage-task)
 - [degree and post-graduate qualifications](/advocate-panel-application/degree-and-postgraduate-qualifications-task)
 - [equality monitoring](/advocate-panel-application/equality-monitoring-task)
 
