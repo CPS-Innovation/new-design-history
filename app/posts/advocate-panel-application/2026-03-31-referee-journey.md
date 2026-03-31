@@ -7,7 +7,7 @@ This is the [Referee journey](https://advocate-panel-application-4c429458eb71.he
 
 When a barrister applies to join the CPS Advocate Panel, part of the process is arranging a reference. Once they submit a reference request, the person they've named receives an email — and that email is the start of the referee journey.
 
-![Referee email magic link.](/advocate-panel-application/referee-journey/referee-email.jpg)
+![Referee email magic link.](/advocate-panel-application/referee-journey/level-4-email.jpg)
 
 The referee journey is separate from the applicant journey. It is one of the external journeys in scope for this phase of work.
 
@@ -56,9 +56,9 @@ All questions are free text with a word count, using the GOV.UK character count 
 
 The questions and guidance differ by level, reflecting what assessors are looking for at each stage.
 
-![Referee journey](/advocate-panel-application/referee-journey/task-list-level-1.jpg)
+![Referee journey](/advocate-panel-application/referee-journey/task-list-1.jpg)
 
-![Referee journey](/advocate-panel-application/referee-journey/task-list-level-4.jpg)
+![Referee journey](/advocate-panel-application/referee-journey/task-list-4.jpg)
 
 The questions are presented using the GOV.UK task list component. Referees can answer them in any order, but all must be completed before the reference can be submitted.
 
@@ -66,18 +66,13 @@ The task list makes the full set of questions visible upfront, shows progress at
 
 There are no formatting options in the text areas — formatting tends to break when applications are processed and redacted before assessors see them.
 
-![Referee journey](/advocate-panel-application/referee-journey/task-list-
-level-4-how-do-you-know-the-applicant.jpg)
-
-Referees have the ability to come back to a question at a later point if they need to via the 'Have you finished' radios underneath each question. The status in the task list will be updated to 'In progress'. Clicking the question link will return them to the question in the state the user left off.
-
-![Referee journey](/advocate-panel-application/referee-journey/task-list-in-progress.jpg)
+![Referee journey](/advocate-panel-application/referee-journey/level-4-how-do-you-know-the-applicant.jpg)
 
 Referees have the ability to come back to a question at a later point if they need to via the 'Have you finished' radios underneath each question.
 
 The status in the task list will be updated to 'In progress'. Clicking the question link will return them to the question in the state the user left off.
 
-![Referee journey](/advocate-panel-application/referee-journey/task-list-in-progress.jpg)
+![Referee journey](/advocate-panel-application/referee-journey/in-progress.jpg)
 
 After answering all the questions, the referee reviews their answers and submits. They then receive a confirmation email.
 
@@ -95,6 +90,6 @@ Currently, a referee who cannot provide a reference has to tell the applicant di
 It is worth considering whether the service could support a more direct way for referees to flag this.
 
 ### **Content design for the reference questions**
-The questions and guidance have been carried over from the current service.
+The questions and guidance have been carried over from the current service. As it stands, there isn't much guidance on the CPS site for most of the referee questions so this could be revisited.
 
 A content design review informed by assessors would help ensure referees have a clear sense of what is expected of them.
