@@ -35,7 +35,7 @@ When the referee clicks the link, they're shown:
 * the applicant's name and reference number
 * their own name, job title, role and email address
 
-![Referee journey](/advocate-panel-application/referee-journey/referee-dash-level-4.jpg)
+![Referee journey](/advocate-panel-application/referee-journey/start-reference.jpg)
 
 
 The referee can correct their name or job title if the applicant got them slightly wrong, but cannot change their role or email address.
