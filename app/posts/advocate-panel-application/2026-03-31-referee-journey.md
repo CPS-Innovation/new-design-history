@@ -54,8 +54,7 @@ The questions are presented using the GOV.UK task list component. Referees can a
 
 There are no formatting options in the text areas — formatting tends to break when applications are processed and redacted before assessors see them.
 
-![Referee journey](/advocate-panel-application/referee-journey/task-list-
-level-4-how-do-you-know-the-applicant.jpg)
+![Referee journey](/advocate-panel-application/referee-journey/level-4-how-do-you-know-the-applicant.jpg)
 
 After answering all the questions, the referee reviews their answers and submits. They then receive a confirmation email.
 
