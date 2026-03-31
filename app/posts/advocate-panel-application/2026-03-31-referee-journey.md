@@ -56,6 +56,10 @@ There are no formatting options in the text areas — formatting tends to break 
 
 ![Referee journey](/advocate-panel-application/referee-journey/level-4-how-do-you-know-the-applicant.jpg)
 
+Referees have the ability to come back to a question at a later point if they need to via the 'Have you finished' radios underneath each question. The status in the task list will be updated to 'In progress'. Clicking the question link will return them to the question in the state the user left off.
+
+![Referee journey](/advocate-panel-application/referee-journey/task-list-in-progress.jpg)
+
 After answering all the questions, the referee reviews their answers and submits. They then receive a confirmation email.
 
 ![Referee journey](/advocate-panel-application/referee-journey/referee-check.jpg)
