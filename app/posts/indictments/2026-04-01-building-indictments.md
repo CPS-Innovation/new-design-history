@@ -11,7 +11,7 @@ Prosecutors operate under extreme pressure. Many carry over 100 active cases sim
 
 A single error can risk a case.
 
-We set out to understand how prosecutors actually build indictments and to test whether a new digital tool could better support that process.
+We set out to understand how prosecutors actually build indictments and to explore how a new digital tool could better support that process.
 
 ## What we did
 
@@ -84,7 +84,9 @@ A key takeaway from Round 2 was that simple cases and complex multi-handed indic
 
 ## What prototype testing showed us (Round 3)
 
-Our working hypothesis for Round 3 was that giving users tools to manage some of their value work inside the new tool would make the experience easier and more intuitive. That hypothesis turned out to be false.
+Our working hypothesis for Round 3 was that giving users tools to manage some of their value work inside the new tool would make the experience easier and more intuitive.
+
+That hypothesis turned out to be false.
 
 ### Prototype version 1
 
@@ -121,7 +123,7 @@ Across all three rounds, we can summarise what prosecutors need in a single hypo
 
 > As a Senior Crown Prosecutor, having completed my review of the case file and arrived at my decisions on what the indictment should contain, I need a rapid assembly line to help me find the right offence codes for all counts, with case details including defendant, victim, and dates auto-populated, so that my primary task is one of review and edit to produce the final indictment for checking and serving.
 
-The process of physically building an indictment needs to be fast, precise, and low-friction. The real intellectual work is already done before the tool is opened.
+The process of physically building an indictment needs to be fast, precise, and low-friction. Any significant cognitive work is already done before the tool is used.
 
 ## What we could do next
 
@@ -134,4 +136,4 @@ Further prototype testing is needed to address gaps not yet fully explored:
 - How auto-population interacts with editing existing indictments, including adding, removing, and duplicating counts.
 - Usability and accessibility of the emerging design.
 
-Initial findings point clearly toward where emphasis should lie: offence code search, auto-population of structured case data, and supporting review rather than input. Indictments may also be a candidate for some exploration of an AI-driven approach.
+What we have learned points toward where emphasis should lie: offence code search, auto-population of structured case data, and supporting review rather than input. Indictments may also be a candidate for some exploration of an AI-driven approach.
