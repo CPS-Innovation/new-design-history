@@ -94,7 +94,7 @@ The first prototype was built on the detailed findings from rounds 1 and 2, with
 
 Users described it as too rigid, too repetitive, and too demanding. One participant expressed frustration at needing 14 or more screens to create a single count.
 
-The enforced sequence clashed with their established ways of working and felt alien to their mental models.
+The enforced sequence clashed with their established ways of working and appeared to counter their mental models.
 
 The failure was still useful. By placing users in a flow that felt so at odds with their expectations, it produced unusually clear articulation of what they actually needed:
 
