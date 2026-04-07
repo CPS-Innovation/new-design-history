@@ -27,7 +27,7 @@ There are separate design history entries for each type of task which was includ
 - [references](/advocate-panel-application/referee-task)
 - [work examples](/advocate-panel-application/work-examples-tasks)
 - [work example upload](/advocate-panel-application/work-example-upload-task)
-- background disclosure
+- [background disclosure](/advocate-panel-application/background-disclosure-task)
 
 ## Panel question
 
