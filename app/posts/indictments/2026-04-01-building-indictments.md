@@ -15,7 +15,7 @@ We set out to understand how prosecutors actually build indictments and to explo
 
 ## What we did
 
-We ran three rounds of user research with 18 Senior Crown Prosecutors, moving from discovery interviews through co-creative design sessions to end-to-end prototype testing.
+We ran three rounds of user research with 17 Senior Crown Prosecutors, including 2 from SEOCID and one Advocate, moving from discovery interviews through co-creative design sessions to end-to-end prototype testing.
 
 The work spanned both discovery and alpha aspects.
 
@@ -27,7 +27,7 @@ We started by trying to understand how prosecutors build indictments before comm
 | R2 (Jan–Feb 2026) | 6 | Co-creative sessions | Testing sequential design concepts |
 | R3 (Feb 2026) | 8 | End-to-end prototype testing | Task-based testing of two prototype variants |
 
-## What we learned from discovery (Round 1)
+## What we learned from discovery - Round 1
 
 Discovery interviews revealed three core insights that shaped everything that followed.
 
@@ -54,10 +54,10 @@ They manually spell-check at the end of the process. Their effectiveness depends
 From these findings, we identified three assumptions to test in Round 2:
 
 - Users need a checklist to monitor task progress.
-- Users need a clear visual link between charges and the counts derived from them.
+- Users need a clear visual link between charges and the counts derived from them. What later proved to be a big assumption emerged; all prosecutors simply take the charges and 'convert' or 'transpose' them into the equivalent of a count.
 - Users need a count creation tool that can reference offence details and offers flexible count reordering.
 
-## What we did in Round 2 (co-creative sessions)
+## What we did in Round 2 co-creative sessions
 
 We ran co-creative sessions using static screen designs to simulate a sequential workflow. Across three iterations with six participants, we tested and refined the designs in response to direct user feedback.
 
@@ -80,9 +80,13 @@ One participant each refined the workflow order, particularly when defendants ar
 
 Responses were noticeably more positive, though the declaration was described as "a little annoying" while being understood in principle.
 
+One thing stood out across iterations: regardless of where we positioned the screen for selecting defendants, users paused at that point and appeared uncertain or unsatisfied. This happened consistently enough to suggest something deeper than a sequencing problem.
+
+Prosecutors are accustomed to completing all of these steps on a single screen, in whatever order suits them — and they are likely unaware of the order in which they do it. Breaking those actions into a linear sequence forced them to examine their own process for the first time, and that friction showed.
+
 A key takeaway from Round 2 was that simple cases and complex multi-handed indictments make very different demands on the workflow. A design that works for one may not easily work for the other.
 
-## What prototype testing showed us (Round 3)
+## What prototype testing showed us - Round 3
 
 Our working hypothesis for Round 3 was that giving users tools to manage some of their value work inside the new tool would make the experience easier and more intuitive.
 
@@ -136,4 +140,4 @@ Further prototype testing is needed to address gaps not yet fully explored:
 - How auto-population interacts with editing existing indictments, including adding, removing, and duplicating counts.
 - Usability and accessibility of the emerging design.
 
-What we have learned points toward where emphasis should lie: offence code search, auto-population of structured case data, and supporting review rather than input. Indictments may also be a candidate for some exploration of an AI-driven approach.
+What we have learned points toward where emphasis should lie: offence code search, auto-population of structured case data, and supporting review rather than input. Indictments may also be a candidate for some exploration of an AI-powered approach, yet to be determined.
