@@ -15,7 +15,7 @@ We set out to understand how prosecutors actually build indictments and to explo
 
 ## What we did
 
-We ran three rounds of user research with 18 Senior Crown Prosecutors, moving from discovery interviews through co-creative design sessions to end-to-end prototype testing.
+We ran three rounds of user research with 17 Senior Crown Prosecutors, including 2 from SEOCID and one Advocate, moving from discovery interviews through co-creative design sessions to end-to-end prototype testing.
 
 The work spanned both discovery and alpha aspects.
 
@@ -54,7 +54,7 @@ They manually spell-check at the end of the process. Their effectiveness depends
 From these findings, we identified three assumptions to test in Round 2:
 
 - Users need a checklist to monitor task progress.
-- Users need a clear visual link between charges and the counts derived from them.
+- Users need a clear visual link between charges and the counts derived from them. What later proved to be a big assumption emerged; all prosecutors simply take the charges and 'convert' or 'transpose' them into the equivalent of a count.
 - Users need a count creation tool that can reference offence details and offers flexible count reordering.
 
 ## What we did in Round 2 (co-creative sessions)
@@ -79,6 +79,10 @@ This was the most notable assumption we tested. All participants approved of the
 One participant each refined the workflow order, particularly when defendants are assigned to counts, and introduced a declaration screen asking users to confirm the indictment had been fully checked.
 
 Responses were noticeably more positive, though the declaration was described as "a little annoying" while being understood in principle.
+
+One thing stood out across iterations: regardless of where we positioned the screen for selecting defendants, users paused at that point and appeared uncertain or unsatisfied. This happened consistently enough to suggest something deeper than a sequencing problem.
+
+Prosecutors are accustomed to completing all of these steps on a single screen, in whatever order suits them — and they are likely unaware of the order in which they do it. Breaking those actions into a linear sequence forced them to examine their own process for the first time, and that friction showed.
 
 A key takeaway from Round 2 was that simple cases and complex multi-handed indictments make very different demands on the workflow. A design that works for one may not easily work for the other.
 
@@ -136,4 +140,4 @@ Further prototype testing is needed to address gaps not yet fully explored:
 - How auto-population interacts with editing existing indictments, including adding, removing, and duplicating counts.
 - Usability and accessibility of the emerging design.
 
-What we have learned points toward where emphasis should lie: offence code search, auto-population of structured case data, and supporting review rather than input. Indictments may also be a candidate for some exploration of an AI-driven approach.
+What we have learned points toward where emphasis should lie: offence code search, auto-population of structured case data, and supporting review rather than input. Indictments may also be a candidate for some exploration of an AI-powered approach, yet to be determined.
