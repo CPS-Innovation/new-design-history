@@ -257,11 +257,17 @@ They can apply between 1 and 30 September for:
 
 They can apply between 1 November and 31 July for temporary membership of the general crime panel at levels 2 to 4.
 
-There are also some exceptions, such as the already noted one for London secondees.
+There are also some exceptions, such as the already noted one for London secondees. 
 
 The prototype does not yet handle application windows in a meaningful way. It just mentions them on the start page. 
 
 We should explore how the service might reflect the application windows, for example by warning users who try to start an application at the wrong time of year.
+
+We could choose to block applications outside the usual windows. However this is likely to be too inflexible, as we know that sometimes exceptions are made based on factors which are not covered by questions in the current service.
+
+For example if a current CPS employee leaves to join the Bar and misses the application window, they’re still allowed to apply.
+
+This is currently handled manually by CPS administrative staff. If we block applications based on the windows then we’ll still need a way to allow this flexibility.
 
 ### Whether to show the application reference number on the task list
 

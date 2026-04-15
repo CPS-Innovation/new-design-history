@@ -120,3 +120,16 @@ Next they have to say what level they want to apply for.
 ![A page asking what level the user wants to apply for. The options are levels 1 to 4.](/advocate-panel-application/letting-users-create-an-account-or-sign-in-before-asking-them-questions/level.png)
 
 In some cases they may also need to answer additional questions before they reach the second of the [two task lists](/advocate-panel-application/using-two-task-lists-instead-of-a-single-application-form). For example, they may need to say whether they want to apply for a temporary or permanent place on the panel.
+
+## Further considerations
+
+When we ask users whether they have an account, the prototype hint text says “You’ll have an account if you’ve ever started an application for a CPS advocate panel”.
+
+This is not quite accurate. Someone will have an account if they have either:
+
+- started an application in the current service
+- been a member of an advocate panel, even if they joined before the current service was launched
+
+Accounts were created for people who were already members of panels when the current service was launched.
+
+We should consider whether the hint text should be clarified.

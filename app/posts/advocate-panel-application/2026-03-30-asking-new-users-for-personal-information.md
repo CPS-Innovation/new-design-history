@@ -129,6 +129,7 @@ We do not want to disable its function as this can confuse users and creates acc
 We should:
 
 - consider how the task list is framed
+- consider whether to add an email address task
 - decide what tags to use
 - decide whether to use a task list at all
 
@@ -139,6 +140,14 @@ In the prototype we’ve framed this task list as the final stage of creating an
 We may want to reconsider this framing depending on the design of the authentication service, which we may not have much control over. 
 
 Other options for the framing may fit better, such as ‘give your personal details’ or ‘create a profile’.
+
+#### Adding an email address task
+
+We did not include a way for a user to change their email address. They will only just have entered it as part of account creation and it’s very unlikely that they’ll need to change it.
+
+However, the current service allows users to add a criminal justice system email (CJSM) address. This cannot be used to sign in, only as an alternative way to contact the user.
+
+We did not find out how useful this is or how many people add a CJSM address.
 
 #### What tags to use
 

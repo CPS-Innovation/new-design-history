@@ -32,8 +32,9 @@ The task ends with the standard question asking whether the user has completed t
 We should consider:
 
 - whether to use the file upload component from the GOV.UK design system
-- whether the 5 page limit works for users
 - the accessibility of the component
+- improving the guidance
+- whether the 5 page limit works for users
 - the requirement for virus scanning
 - what file types we allow
 
@@ -58,6 +59,21 @@ This includes making sure that:
 - it is usable with a keyboard and screen reader
 - any error messages follow the standard GOV.UK error message pattern
 - status messages are announced to screen reader users
+
+### Improving the guidance
+
+We’ve only included the guidance for applying for general crime at level 4. We need to add the guidance for other panels and levels which require a file upload.
+
+We should also:
+
+- review the guidance for its content and style - it was taken directly from the current service
+- consider whether we need to incorporate the [sensitive information guidance](https://www.cps.gov.uk/advocate-panels#sensitivecaseinfo) about uploads
+- speak to CPS administrative staff about proposed changes to the guidance
+
+Proposed changes include telling users not to upload: 
+
+- advice
+- personal information relating to victims, witnesses or defendants - for example dates of birth, passport numbers or car license plate numbers
 
 ### The 5 page limit
 
