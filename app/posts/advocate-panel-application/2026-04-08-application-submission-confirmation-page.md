@@ -8,7 +8,7 @@ After a user submits their application, they’re shown a page which uses the [c
 The page tells the user:
 
 - their application reference number
-- that a confirmation email has been sent to them, including a copy of their application
+- that a [confirmation email](/advocate-panel-application/email-notifications) has been sent to them, including a copy of their application
 - what will happen next
 
 It also includes a link back to their profile, so they can:
