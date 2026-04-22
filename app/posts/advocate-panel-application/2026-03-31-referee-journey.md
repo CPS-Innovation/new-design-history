@@ -1,9 +1,9 @@
 ---
-title: Referee journey in the Advocate Panel application
+title: Referee journey
 date: 2026-03-31
 ---
 
-This is the [Referee journey](https://advocate-panel-application-4c429458eb71.herokuapp.com/referee/level) prototype.
+This design history entry refers to the [referee journey prototype](https://advocate-panel-application-4c429458eb71.herokuapp.com/referee/level).
 
 When a barrister applies to join the CPS Advocate Panel, part of the process is arranging a reference. Once they submit a reference request, the person they've named receives an email — and that email is the start of the referee journey.
 
@@ -35,7 +35,7 @@ When the referee clicks the link, they're shown:
 * the applicant's name and reference number
 * their own name, job title, role and email address
 
-![Referee journey](/advocate-panel-application/referee-journey/start-reference.jpg)
+![Referee journey](/advocate-panel-application/referee-journey/start-reference.png)
 
 
 The referee can correct their name or job title if the applicant got them slightly wrong, but cannot change their role or email address.
