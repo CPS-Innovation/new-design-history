@@ -6,6 +6,7 @@ description: Making redaction part of reviewing case materials in Manage materia
 ## Context
 
 Redaction is the process of permanently obscuring sensitive information from documents before they are shared.
+
 It is a key feature of the Casework App and has been available to caseworkers, paralegals and prosecutors.
 
 To streamline user experience and improve maintainability, we have merged Casework App with Housekeeping UI into a single application.
