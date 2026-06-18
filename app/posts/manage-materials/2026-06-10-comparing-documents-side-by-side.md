@@ -77,4 +77,5 @@ We have identified this as a known potential issue and will continue to monitor 
 ## Next steps
 
 We will gather further feedback and observe how users interact with multiple open windows.
+
 If this approach causes problems, we will explore alternatives. This may include limiting the number of open documents or improving ways to compare and manage documents within a single view.
