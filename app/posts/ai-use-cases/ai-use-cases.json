@@ -1,0 +1,12 @@
+{
+  "layout": "post",
+  "permalink": "{{ page.filePathStem | replace('posts/', '') }}/",
+  "tags": ["ai-use-cases"],
+  "eleventyComputed": {
+    "eleventyNavigation": {
+      "parent": "ai-use-cases",
+      "key": "{{ page.fileSlug }}",
+      "excerpt": "{{ description }}"
+    }
+  }
+}
