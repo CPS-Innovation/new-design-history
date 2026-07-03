@@ -7,6 +7,8 @@ description: Why and how we chose purple to highlight AI involvement in the Expl
 
 ---
 
+**Please be aware that this work was entirely experimental. The AI capabilities described here were never available to users in a live environment, and were not used in CPS casework.**
+
 ## Why we did this work
 
 The Explore the case tool surfaces two distinct types of information side by side.
