@@ -5,7 +5,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
-.DS_Store
+
+# macOS
+**/.DS_Store
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -138,12 +140,6 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
-app/images/.DS_Store
-app/images/.DS_Store
-app/images/allocate/.DS_Store
-app/images/polaris/.DS_Store
-app/images/witex/.DS_Store
-app/posts/.DS_Store
 
 _site
 public
